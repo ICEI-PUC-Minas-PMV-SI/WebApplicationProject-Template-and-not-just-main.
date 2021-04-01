@@ -6,11 +6,11 @@
 
 `2021/1`
 
-Este projeto visa desenvolver uma solução Web com o objetivo macro de simplificar a gestão de condomínio pelos síndicos e subsíndicos, além de possibilitar maior transparøencia dos custos com os conôminos, canal centralizado de comunicação, agendamento de assembléias, reserva de áreas comuns, emissão de boletos para cobranças internas e histórico financeiro.
+Este projeto visa desenvolver uma solução Web com o objetivo macro de simplificar o gerenciamento de condomínios pelos síndicos e subsíndicos, além de possibilitar maior transparência dos custos com os condôminos, canal centralizado de comunicação, agendamento de assembleias, reserva de áreas comuns, emissão de boletos para cobranças internas e histórico financeiro.
 
 ## Integrantes
 
-- Gláucio Leonardo Sant'ana 
+- Gláucio Leonardo Sant'ana
 - Danilo Paris
 - João Lucas
 - Salo Lobato
