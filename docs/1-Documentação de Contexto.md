@@ -19,6 +19,11 @@ enfrentados no dia-a-dia da gestão condominial, e ainda, existem os conflitos e
 fizeram com que muitos moradores desistissem de assumir a função. Dentro desta realidade, os condomínios se viram obrigados a contratar um síndico profissional e, então, 
 uma nova oportunidade de trabalho surgiu.".
 
+Além da complexidade de gestão, existem também imprevistos como a pandemia do Covid-19, o que pode agravar, ainda mais, o gerenciamento por parte dos síndicos e até mesmo das empresas 
+que não estão preparadas para o mundo digital. Na [Folha de São Paulo](https://www1.folha.uol.com.br/mpme/2020/10/crescem-as-empresas-que-oferecem-solucoes-digitais-para-condominios.shtml) (2020), 
+diversos especialistas corroboram com a problemática apresentada, onde o Brasil possui uma grande defasagem no setor, no que diz respeito, a digitalização dos processos. No mesmo artigo o cofundador 
+da Lar.App (Rafael Lauand) cita que "<b>o mercado condominial brasileiro está atrasado de 20 a 30 anos no aspecto tecnológico</b>. Quando a pandemia iniciou, poucas administradoras estavam preparadas para 
+atender remotamente e de forma ágil".
 
 `Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.`
 
