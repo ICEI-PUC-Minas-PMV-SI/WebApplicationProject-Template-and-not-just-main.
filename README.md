@@ -5,6 +5,9 @@
 `Eixo 1 - Projeto: Aplicações Web - Turma 3`
 
 `2021/1`
+<br>
+
+![Logo Gestão de condomínios](docs/img/logo.svg)
 
 Este projeto visa desenvolver uma solução Web com o objetivo macro de simplificar o gerenciamento de condomínios pelos síndicos e subsíndicos, além de possibilitar maior transparência dos custos com os condôminos, canal centralizado de comunicação, agendamento de assembleias, reserva de áreas comuns, emissão de boletos para cobranças internas e histórico financeiro.
 
