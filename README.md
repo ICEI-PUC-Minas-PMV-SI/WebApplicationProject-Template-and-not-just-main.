@@ -1,21 +1,23 @@
-# TÍTULO DO PROJETO
+# Gestão de Condomínios
 
-`CURSO`
+`Sistema de Informação`
 
-`DISCIPLINA`
+`Eixo 1 - Projeto: Aplicações Web - Turma 3`
 
-`SEMESTRE`
+`2021/1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Este projeto visa desenvolver uma solução Web com o objetivo macro de simplificar a gestão de condomínio pelos síndicos e subsíndicos, além de possibilitar maior transparøencia dos custos com os conôminos, canal centralizado de comunicação, agendamento de assembléias, reserva de áreas comuns, emissão de boletos para cobranças internas e histórico financeiro.
 
 ## Integrantes
 
-- Obi-Wan Kenobi 
-- Anakin Skywalker
+- Gláucio Leonardo Sant'ana 
+- Danilo Paris
+- João Lucas
+- Salo Lobato
 
 ## Professor
 
-- Mestre Yoda
+- Fábio Martins de Oliveira
 
 # Documentação
 
