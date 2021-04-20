@@ -8,9 +8,20 @@ agendamentos de reuniões ou assembleias, reserva de espaços comuns, agendament
 
 ## Problema
 
-Para os condomínios, as principais formas de gerenciamento são <b>o controle manual</b> pelo síndico/sub-síndico ou a <b>contratação de uma empresa especializada</b>, onde o custo, 
-dependendo da administradora pode onerar de forma significativa. Entretanto, seria <b>somente o custo</b> a verdadeira motivação para a terceirização de um serviço considerado altamente burocrático? 
-Ou talvez, a complexidade para gerenciar diversos condomínios ou apartamentos de forma manual (planilhas de Excel, livros-caixa, entre outros)? Todavia, poderia ser também por haver aplicações 
+`Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.`
+
+`Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.`
+
+`Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.`
+
+> **Links Úteis**:
+> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
+> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+
+Para os condomínios, as principais formas de gerenciamento são <b>o controle manual</b> pelo síndico/sub-síndico ou a <b>contratação de uma empresa especializada</b>, onde o custo 
+dependendo da administradora, pode onerar de forma significativa. Entretanto, seria <b>somente o custo</b> a verdadeira motivação para a terceirização de um serviço considerado altamente burocrático? 
+Ou talvez, a complexidade para gerenciar diversos condomínios ou apartamentos de forma manual (planilhas em Excel, livros-caixa, entre outros)? Todavia, poderia ser também por haver aplicações 
 legadas que não atendam as necessidades atuais de mercado?
 
 No site [Síndico Legal](https://sindicolegal.com/cresce-o-numero-de-sindicos-profissionais-no-brasil/) (2019), 
@@ -25,25 +36,16 @@ diversos especialistas corroboram com a problemática apresentada, onde o Brasil
 da Lar.App (Rafael Lauand) cita que "<b>o mercado condominial brasileiro está atrasado de 20 a 30 anos no aspecto tecnológico</b>. Quando a pandemia iniciou, poucas administradoras estavam preparadas para 
 atender remotamente e de forma ágil".
 
-`Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.`
-
-`Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.`
-
-`Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.`
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
 `Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima.`
 
 `Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.`
  
-O objetivo inicial será desenvolver uma aplicação web, que irá facilitar o acesso dos usuários por meio de qualquer dispositivo conectado ao nosso servidor, consumindo os dados através de uma API (RESTful), 
-uma vez que possibilita maior flexibilidade na expansão do projeto para outras plataformas.
+O objetivo inicial será desenvolver uma aplicação web estática, responsiva e com alto nível de aplicação de [UX/UI](https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide/) 
+para a Gestão de Condomínios facilitando o acesso dos usuários (administradores/desenvolvedores, síndicos e condôminos) por meio de qualquer dispositivo conectado ao nosso servidor, consumindo os 
+dados cadastrados através de uma [API](https://en.wikipedia.org/wiki/API) (Application Programming Interface: RESTful), uma vez que irá possibilitar maior flexibilidade na expansão do projeto para 
+outras plataformas front-end (Android, iOS, Windows, MacOS, etc...).
 
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
