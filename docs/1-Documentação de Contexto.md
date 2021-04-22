@@ -33,8 +33,8 @@ uma nova oportunidade de trabalho surgiu.".
 Além da complexidade de gestão, existem também imprevistos como a pandemia do Covid-19, o que pode agravar, ainda mais, o gerenciamento por parte dos síndicos e até mesmo das empresas 
 que não estão preparadas para o mundo digital. Na [Folha de São Paulo](https://www1.folha.uol.com.br/mpme/2020/10/crescem-as-empresas-que-oferecem-solucoes-digitais-para-condominios.shtml) (2020), 
 diversos especialistas corroboram com a problemática apresentada, onde o Brasil possui uma grande defasagem no setor, no que diz respeito, a digitalização dos processos. No mesmo artigo o cofundador 
-da Lar.App (Rafael Lauand) cita que "<b>o mercado condominial brasileiro está atrasado de 20 a 30 anos no aspecto tecnológico</b>. Quando a pandemia iniciou, poucas administradoras estavam preparadas para 
-atender remotamente e de forma ágil".
+da Lar.App (Rafael Lauand) cita que "<b>o mercado condominial brasileiro está atrasado de 20 a 30 anos no aspecto tecnológico</b>. Quando a pandemia iniciou, poucas administradoras estavam preparadas 
+para atender remotamente e de forma ágil".
 
 ## Objetivos
 
@@ -52,12 +52,20 @@ outras plataformas front-end (Android, iOS, Windows, MacOS, etc...).
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+`Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em 
+certos aspectos do software.`
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+`O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.`
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+
+A justificativa para o desenvolvimento deste projeto, está correlacionado com os tópicos anteriores **Introdução** e **Problema** que retratam, 
+da demanda crescente por aquisição de imóveis na categoria condominial, que consequentemente aumenta a necessidade de fornecimento de ferramentas que possam facilitar a gestão diária dos condomínios,
+seja para atender o controle financeiro de determinado condomínio, aumentar a transparência dos gastos (disponibilizado para todos os respectivos proprietários), acesso centralizado aos comunicados, 
+reuniões/assembleias, agendamento de áreas comuns, porém seria muito complicado executar estas tarefas de forma manual uma vez que a simplicidade na utilização da ferramenta incentiva o condomínio a
+reduzir custos com a terceirização da gestão.
+
 
 ## Público-Alvo
 
