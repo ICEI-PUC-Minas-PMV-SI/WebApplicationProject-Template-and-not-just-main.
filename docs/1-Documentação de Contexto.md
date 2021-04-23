@@ -83,5 +83,5 @@ A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuá
 O público alvo de nosso sistema são em sua forma primária os síndicos/subsíndicos e proprietários dos apartamentos. Em segundo plano, nosso sistema possui como foco a utilização do sistema por 
 funcionários do condomínio (porteiros, responsáveis pela limpeza, zelador, entre outros). 
 
-Apesar desse não ser o foco principal, porém administradoras de condomínios poderiam utilizar nosso sistema sem menores complicações, uma vez as funcionalidades seriam as mesmas para a gestão de 
+Apesar desse não ser o foco principal, administradoras de condomínios poderiam utilizar nosso sistema sem menores complicações, uma vez as funcionalidades seriam as mesmas para a gestão de 
 múltiplos condomínios por parte de um mesmo síndico.
