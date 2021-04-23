@@ -6,7 +6,33 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
+O Residencial Hector Bonilla existe há 20 anos e hoje busca oferecer um serviço de melhor qualidade para seus beneficiários.
+
 ## Personas
+### Seu Barriga
+Seu Barriga é um empresário de sucesso e é senhorio de vários condominios. Por uma questão de tempo, economia financeira, eficiência e
+qualidade do serviço prestado
+decidiu começar digitalizar os processos de seus negócios através de soluções ágeis que lhe trarão maior flexibilidade ao delegar responsabilidades
+para seus funcionários, além de poder acompanhar de perto todas as transações que ocorrem em seus empreendimentos.
+
+### Chaves
+Pensando em otimizar o seu tempo e o gerenciamento do condominio, o síndico Chaves propôs para o senhorio Seu Barriga que contratasse
+uma empresa para desenvolver uma solução web para integrar as necessidades dele, dos moradores e dos funcionários.
+
+### Dona Florinda
+Dona Florinda reside no condomínio Hector Bonilla há 10 anos. É viúva e possui um filho de 8 anos, o Kiko. Ela gosta muito da estrutura e do espaço oferecido,
+porém acredita que o serviço prestado poderia ser melhor e gostaria de uma forma melhor de se informar sobre os gastos, sobre as reuniões e sobre eventos realizados.
+
+### Godinez
+Godinez é o zelador do prédio.
+
+### Dona Clotilde
+É a faxineira do prédio.
+
+### Jaiminho
+Jaiminho é o porteiro do condomínio, que conta com o serviço 24 horas por dia. A maior dificuldade de Jaiminho é fazer a entrega das correspondências dos moradores
+pois ele alega que gosta de "evitar a fadiga".
+
 
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
