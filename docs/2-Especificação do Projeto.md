@@ -7,6 +7,7 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 O Residencial Hector Bonilla existe há 20 anos e hoje busca oferecer um serviço de melhor qualidade para seus beneficiários.
+![Esboço Requisitos](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-sistema-web-de-gestao-de-condominios/blob/main/docs/img/Rascunho%20Requisitos.svg)
 
 ## Personas
 ### Seu Barriga
