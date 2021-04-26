@@ -2,42 +2,25 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+`Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além 
+das restrições do projeto.`
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+`Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto`
 
-O Residencial Hector Bonilla existe há 20 anos e hoje busca oferecer um serviço de melhor qualidade para seus beneficiários.
-![Esboço Requisitos](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-sistema-web-de-gestao-de-condominios/blob/main/docs/img/Rascunho%20Requisitos.svg)
+O Residencial Hector Bonilla existe há cerca de 20 anos. O residencial possui duas torres com 50 apartamentos, um dormitório para o zelador, áreas comuns como playground, piscina, salão de festa, área para churrasco,
+área para assar pizza, quadra poliesportiva e portaria 24hrs.
+
+Como todo condomínio, existem problemas e seu senhorio gostaria de oferecer um melhor serviço para seus moradores. O senhorio possui diversos empreendimentos, mas antes de pensar em expansão, ele
+gostaria de experimentar algo novo no residencial Hector Bonilla e em caso de sucesso, fará a expansão para os demais.
+
+
+![Esboço Requisitos](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-sistema-web-de-gestao-de-condominios/blob/main/docs/img/rascunho-requisitos.svg)
 
 ## Personas
-### Seu Barriga
-Seu Barriga é um empresário de sucesso e é senhorio de vários condominios. Por uma questão de tempo, economia financeira, eficiência e
-qualidade do serviço prestado
-decidiu começar digitalizar os processos de seus negócios através de soluções ágeis que lhe trarão maior flexibilidade ao delegar responsabilidades
-para seus funcionários, além de poder acompanhar de perto todas as transações que ocorrem em seus empreendimentos.
+`Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um
+intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.`
 
-### Chaves
-Pensando em otimizar o seu tempo e o gerenciamento do condominio, o síndico Chaves propôs para o senhorio Seu Barriga que contratasse
-uma empresa para desenvolver uma solução web para integrar as necessidades dele, dos moradores e dos funcionários.
-
-### Dona Florinda
-Dona Florinda reside no condomínio Hector Bonilla há 10 anos. É viúva e possui um filho de 8 anos, o Kiko. Ela gosta muito da estrutura e do espaço oferecido,
-porém acredita que o serviço prestado poderia ser melhor e gostaria de uma forma melhor de se informar sobre os gastos, sobre as reuniões e sobre eventos realizados.
-
-### Godinez
-Godinez é o zelador do prédio.
-
-### Dona Clotilde
-É a faxineira do prédio.
-
-### Jaiminho
-Jaiminho é o porteiro do condomínio, que conta com o serviço 24 horas por dia. A maior dificuldade de Jaiminho é fazer a entrega das correspondências dos moradores
-pois ele alega que gosta de "evitar a fadiga".
-
-
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
-
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+`Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:`
 
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
@@ -46,8 +29,37 @@ Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos 
 > - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
 > - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
 > - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+
+`Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.`
+
+### Seu Barriga
+Seu Barriga é um empresário de sucesso e é senhorio de vários condomínios. Por uma questão de tempo, economia financeira, eficiência e qualidade do serviço prestado decidiu começar digitalizar os 
+processos de seus negócios através de soluções ágeis que lhe trarão maior flexibilidade ao delegar responsabilidades para seus funcionários, além de conseguir acompanhar de perto todas as 
+transações que ocorrem em seus empreendimentos.
+
+### Chaves
+Pensando em otimizar o seu tempo e o gerenciamento do condomínio, o síndico Chaves propôs para o senhorio Seu Barriga que contratasse uma empresa para desenvolver uma solução web para integrar as 
+necessidades dele, dos moradores e dos funcionários.
+
+### Dona Florinda
+Dona Florinda reside no condomínio Hector Bonilla há 10 anos. É viúva e possui um filho de 8 anos, o Kiko. Ela gosta muito da estrutura e do espaço oferecido, porém acredita que o serviço 
+prestado poderia ser melhor e gostaria de uma forma melhor de se informar sobre os gastos, sobre as reuniões e sobre eventos realizados.
+
+### Godinez
+Godinez é um profissional exemplar que trabalha como zelador do prédio antes mesmo do primeiro morador. Ele conhece cada detalhe das atividades necessárias para a manutenção do condomínio, mas ele 
+encontra algumas dificuldades de comunicação com o síndico que, algumas vezes, atrasa seu trabalho, por exemplo, a compra de materiais de manutenção, autorização formal de algumas atividades 
+supervisionada pelo síndico e em algumas conversas com ele, perguntou se haveria alguma forma de resolver estas pequenas dificuldades do dia a dia e que teve uma reposta positiva de que este assunto
+está sendo tratado com o senhorio (Seu Barriga).
+
+### Dona Clotilde
+Dona Clotilde é a faxineira e o "jornal ambulante" do prédio, pois sabe de tudo que acontece no condomínio e não perde uma fofoca. Apesar disso ela trabalha no prédio três vezes por semana, mas em 
+alguns casos, ela não pôde concluir suas atividades porque faltavam materiais de limpeza e nisto ela sempre falava com o zelador Godinez deste problema, o que gerava gastos desnecessários para o
+condomínio.
+
+### Jaiminho
+Jaiminho é o porteiro do condomínio, que conta com o serviço 24 horas por dia. A maior dificuldade de Jaiminho é fazer a entrega das correspondências dos moradores, pois segundo ele, é 
+preciso "evitar a fadiga". Jaiminho tenta ligar no interfone ou nos respectivos telefones para que os moradores possam buscar as correspondências, mas nem sempre consegue falar com eles o que faz
+aumentar a fadiga de Jaiminho e deixar o serviço mais cedo.
 
 ## Histórias de Usuários
 
