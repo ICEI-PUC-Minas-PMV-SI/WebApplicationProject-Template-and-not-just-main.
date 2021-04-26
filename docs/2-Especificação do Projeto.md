@@ -33,30 +33,48 @@ intercâmbio. Está buscando uma agência que o ajude a encontrar universidades 
 `Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.`
 
 ### Seu Barriga
+
+<img src="img/personas/seu-barriga.png" alt="Seu barriga" style="width: 100px; height: 100px">
+
 Seu Barriga é um empresário de sucesso e é senhorio de vários condomínios. Por uma questão de tempo, economia financeira, eficiência e qualidade do serviço prestado decidiu começar digitalizar os 
 processos de seus negócios através de soluções ágeis que lhe trarão maior flexibilidade ao delegar responsabilidades para seus funcionários, além de conseguir acompanhar de perto todas as 
 transações que ocorrem em seus empreendimentos.
 
 ### Chaves
+
+<img src="img/personas/chaves.png" alt="Chaves" style="width: 100px; height: 100px">
+
 Pensando em otimizar o seu tempo e o gerenciamento do condomínio, o síndico Chaves propôs para o senhorio Seu Barriga que contratasse uma empresa para desenvolver uma solução web para integrar as 
 necessidades dele, dos moradores e dos funcionários.
 
 ### Dona Florinda
+
+<img src="img/personas/dona-florinda.png" alt="Dona Florinda" style="width: 100px; height: 100px">
+
 Dona Florinda reside no condomínio Hector Bonilla há 10 anos. É viúva e possui um filho de 8 anos, o Kiko. Ela gosta muito da estrutura e do espaço oferecido, porém acredita que o serviço 
 prestado poderia ser melhor e gostaria de uma forma melhor de se informar sobre os gastos, sobre as reuniões e sobre eventos realizados.
 
 ### Godinez
+
+<img src="img/personas/godinez.png" alt="Godinez" style="width: 100px; height: 100px">
+
 Godinez é um profissional exemplar que trabalha como zelador do prédio antes mesmo do primeiro morador. Ele conhece cada detalhe das atividades necessárias para a manutenção do condomínio, mas ele 
 encontra algumas dificuldades de comunicação com o síndico que, algumas vezes, atrasa seu trabalho, por exemplo, a compra de materiais de manutenção, autorização formal de algumas atividades 
 supervisionada pelo síndico e em algumas conversas com ele, perguntou se haveria alguma forma de resolver estas pequenas dificuldades do dia a dia e que teve uma reposta positiva de que este assunto
 está sendo tratado com o senhorio (Seu Barriga).
 
 ### Dona Clotilde
+
+<img src="img/personas/dona-clotilde.png" alt="Dona Clotilde" style="width: 100px; height: 100px">
+
 Dona Clotilde é a faxineira e o "jornal ambulante" do prédio, pois sabe de tudo que acontece no condomínio e não perde uma fofoca. Apesar disso ela trabalha no prédio três vezes por semana, mas em 
 alguns casos, ela não pôde concluir suas atividades porque faltavam materiais de limpeza e nisto ela sempre falava com o zelador Godinez deste problema, o que gerava gastos desnecessários para o
 condomínio.
 
 ### Jaiminho
+
+<img src="img/personas/jaiminho.png" alt="Jaiminho" style="width: 100px; height: 100px">
+
 Jaiminho é o porteiro do condomínio, que conta com o serviço 24 horas por dia. A maior dificuldade de Jaiminho é fazer a entrega das correspondências dos moradores, pois segundo ele, é 
 preciso "evitar a fadiga". Jaiminho tenta ligar no interfone ou nos respectivos telefones para que os moradores possam buscar as correspondências, mas nem sempre consegue falar com eles o que faz
 aumentar a fadiga de Jaiminho e deixar o serviço mais cedo.
