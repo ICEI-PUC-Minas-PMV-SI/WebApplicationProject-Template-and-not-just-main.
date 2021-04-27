@@ -120,8 +120,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |----|----------------------|--------|
 | 1  | Criar (Create)       | (C)    |
 | 2  | Ler (Read)           | (R)    |
-| 3  | Apagar (Delete)      | (D)    |
-| 4  | Atualizar (Update)   | (U)    |
+| 3  | Atualizar (Update)   | (U)    |
+| 4  | Apagar (Delete)      | (D)    |
 
 
 |EU COMO... `PERSONA`   | QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                                  |
@@ -130,8 +130,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |1                      | Cadastrar condomínios              | Permitir que possam criar condomínios a serem gerenciados |
 |1, 2                   | Alterar permissões                 | Permitir que possam administrar contas                  |
 |1, 2                   | Cadastrar usuários (3), funcionários (4)                 | Permitir que possam administrar contas                  |
-
-> CRUD: Criar (**C**reate), Ler (**R**ead), Apagar (**D**elete), Atualizar (**U**pdate);
 
 `DRAFT: Após colocar no formato oficial`
 
