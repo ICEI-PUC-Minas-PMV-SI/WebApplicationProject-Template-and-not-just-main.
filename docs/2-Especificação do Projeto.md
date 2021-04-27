@@ -105,12 +105,24 @@ aumentar a fadiga de Jaiminho e deixar o serviço mais cedo e ir à casa de sua 
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
+**Tabela de perfis/personas:**
+
 | Id | Perfil / Persona     | Descrição                              |
 |----|----------------------|----------------------------------------|
 | 1  | Administrador Master | Desenvolvedor, CEO                     |
 | 2  | Administrador        | Desenvolvedor, CEO                     |
 | 3  | Usuário comum        | Condômino, proprietário do apartamento |
 | 4  | Funcionário          |                                        |
+
+**Tabela de ação básica do usuário:**
+
+| Id | Ação                 | Código |
+|----|----------------------|--------|
+| 1  | Criar (Create)       | (C)    |
+| 2  | Ler (Read)           | (R)    |
+| 3  | Apagar (Delete)      | (D)    |
+| 4  | Atualizar (Update)   | (U)    |
+
 
 |EU COMO... `PERSONA`   | QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                                  |
 |-----------------------|------------------------------------|---------------------------------------------------------|
