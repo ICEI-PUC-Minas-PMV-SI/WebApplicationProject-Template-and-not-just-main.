@@ -48,12 +48,12 @@ que ocorrem em seus empreendimentos, a qualquer momento e a um toque/clique de d
     <img src="img/personas/chaves.png" alt="Chaves" style="width: 100px; height: 100px">
 </p>
 
-Chaves Chespirito é um jovem de 25 anos de idade, de família muito humilde, e ama estar com seus amigos para jogar conversa fora e comer seu lanche favorito, sanduíche de presunto. Chaves recentemente
-concluiu sua graduação em Administração na Universidade Federal de Minas Gerais (UFMH). Chaves, reside no residencial Hector Bonilla, onde foi escolhido, pelo Seu Barriga, para ser o síndico oficial
+Chaves Chespirito é um jovem de 25 anos de idade, de família muito humilde, ama estar com seus amigos para jogar conversa fora e comer seu lanche favorito, sanduíche de presunto. Chaves recentemente
+concluiu sua graduação em Administração na Universidade Federal de Minas Gerais (UFMG). Chaves, reside no residencial Hector Bonilla, onde foi escolhido, pelo Seu Barriga, para ser o síndico oficial
 após passar por um período de 6 meses de experiência. Após esta experiência e bons feedbacks por parte do senhorio e dos moradores, Chaves viu que sua maior aptidão era com a gestão, o que fez com que
 cursasse Administração.
 
-Chaves conheceu diversas formas de melhorar a gestão das empresas na faculdade e em seu período de estágio e pensando na otimização do seu tempo e, principalmente, na excelência do gerenciamento do
+Chaves conheceu diversas formas de melhorar a gestão das empresas na faculdade e em seu período de estágio, pensando na otimização do seu tempo e, principalmente, na excelência do gerenciamento do
 condomínio, o síndico Chaves em uma, das diversas reuniões que tem com o senhorio, propôs que Seu Barriga contratasse uma empresa para desenvolver uma solução web que integrasse as necessidades dele,
 dos moradores e dos funcionários, uma vez que após ter a solução finalizada, seria mais econômico do que uma empresa que fizesse a gestão externa, além de poder implementar esta solução nos demais
 residenciais do Seu Barriga.
@@ -73,8 +73,8 @@ se informar sobre tudo o que acontece no condomínio, seja a respeito dos gastos
 <img src="img/personas/godinez.png" alt="Godinez" style="width: 100px; height: 100px">
 </p>
 
-Godinez, 35 anos, é um profissional exemplar que trabalha como zelador do prédio antes mesmo do primeiro morador. Ele conhece cada detalhe das atividades necessárias para executar as devudas
-manutenções do condomínio, mas Godinez encontra algumas dificuldades de comunicação com o síndico, que devido a esta dificuldade, faz com que seu trabalho fique atrasaso. Alguns problemas que ele
+Godinez, 41 anos, é um profissional exemplar que trabalha como zelador do prédio antes mesmo do primeiro morador. Ele conhece cada detalhe das atividades necessárias para executar as devidas
+manutenções do condomínio, mas Godinez encontra algumas dificuldades de comunicação com o síndico, que devido a esto, faz com que seu trabalho fique atrasaso. Alguns problemas que ele
 necessita comunicar ao síndico seria a compra de materiais para efetuar determinada manutenção, autorização formal de algumas atividades supervisionadas pelo síndico.
 
 Em algumas conversas com o síndico Chaves, Godinez havia perguntado se teria alguma forma de resolver estas pequenas dificuldades do dia a dia e que teve uma reposta positiva de que este assunto
@@ -85,10 +85,10 @@ está sendo tratado com o Seu Barriga (senhorio).
     <img src="img/personas/dona-clotilde.png" alt="Dona Clotilde" style="width: 100px; height: 100px">
 </p>
 
-Dona Clotilde de 60 anos, aposentada que não consegue ficar sem trabalhar, é a faxineira e o "jornal ambulante" do prédio, pois tem a necessidade de sabes de tudo que acontece no condomínio e não
+Dona Clotilde de 60 anos, aposentada que não consegue ficar sem trabalhar, é a faxineira e o "jornal ambulante" do prédio, pois tem a necessidade de saber de tudo que acontece no condomínio e não
 perde uma fofoca para colocar a conversa em dia. Apesar disso, ela trabalha no prédio três vezes por semana, mas em alguns casos, ela não pôde concluir suas atividades porque faltavam materiais de
-limpeza e nisto ela sempre falava com o zelador Godinez e outras vezes com o síndico Chaves. Nestes casos Don Clotilde não achava tão ruim, porque recebia sua diária e poderia ir para casa assistir
-suas novelas mexicanas, Maria do Bairro e em seguida A Usurpadora. Por fim, era mais um gasto gastos desnecessários para o condomínio.
+limpeza e nisto ela sempre falava com o zelador Godinez e outras vezes com o síndico Chaves. Nestes casos Dona Clotilde não achava tão ruim, porque recebia sua diária e poderia ir para casa assistir
+suas novelas mexicanas, Maria do Bairro e em seguida A Usurpadora. Por fim, era mais um gasto desnecessários para o condomínio.
 
 ### Jaiminho
 <p style="text-align: center">
@@ -96,7 +96,7 @@ suas novelas mexicanas, Maria do Bairro e em seguida A Usurpadora. Por fim, era 
 </p>
 
 Jaiminho, ex-carteiro, aposentado pelos Correios, tem 67 anos, é o porteiro do condomínio Hector Bonilla. Jaiminho é da cidade de Tangamandapio e agora mora em Betim para ficar perto de sua filha
-Maria Juaquina e seu Genro Cirilo. Para não ficar somente em casa vendo esportes televisão, ele arrumou um emprego no prédio onde sua filha mora, onde conta com o serviço de porteiro 24 horas por dia.
+Maria Juaquina e seu Genro Cirilo. Para não ficar somente em casa vendo esportes na televisão, ele arrumou um emprego no prédio onde sua filha mora, onde conta com o serviço de portaria 24 horas por dia.
 Jaiminho geralmente trabalha no turno da manhã onde aproveita o menor fluxo de pessoas. A maior dificuldade dele está relacionada nas entregas das correspondências dos moradores, pois segundo ele, é
 preciso "evitar a fadiga". Jaiminho tenta ligar no interfone ou nos respectivos telefones para que os moradores possam buscar as correspondências, mas nem sempre consegue falar com eles, o que faz
 aumentar a fadiga de Jaiminho e deixar o serviço mais cedo e ir à casa de sua filha tomar um cafezinho.
