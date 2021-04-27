@@ -222,10 +222,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+| Código | Prioridades |
+|--------|-------------|
+|   1    | ALTA        |
+|   2    | MÉDIA       |
+|   3    | BAIXA       |
+
+|ID    | Descrição do Requisito                  | Prioridade |
+|------|-----------------------------------------|------------|
+|RF-001| Permitir que o usuário cadastre tarefas | 1          | 
+|RF-002| Emitir um relatório de tarefas no mês   | 2          |
 
 
 ### Requisitos não Funcionais
