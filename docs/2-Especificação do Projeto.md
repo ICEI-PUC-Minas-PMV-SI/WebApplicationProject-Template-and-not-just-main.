@@ -107,12 +107,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 **Tabela de perfis/personas:**
 
-| Id | Perfil / Persona     | Descrição                              |
-|----|----------------------|----------------------------------------|
-| 1  | Administrador Master | Desenvolvedor, CEO                     |
-| 2  | Administrador        | Desenvolvedor, CEO                     |
-| 3  | Usuário comum        | Condômino, proprietário do apartamento |
-| 4  | Funcionário          |                                        |
+| Id | Perfil / Persona     | Descrição                                          |
+|----|----------------------|----------------------------------------------------| 
+| 1  | Administrador Master | Desenvolvedor, CEO                                 |
+| 2  | Administrador        | Desenvolvedor, CEO, Empresa, Síndico               |
+| 3  | Usuário comum        | Condômino, proprietário e inquilino do apartamento |
+| 4  | Funcionário          | Porteiro, Zelador, Faxineira, etc                  |
 
 **Tabela de ação básica do usuário:**
 
@@ -151,6 +151,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 >       * CRUD para incluir solicitação para compra de materiais para limpeza e manutenção;
 >       * CRUD para aprovação de pedidos manutenção;
 >       * CRUD para inclusão de mercadorias e correspondências dos moradores (notificação);
+>       * CRUD para inclusão de mercadorias e produtos para uso comum;
 >  - **Módulo Dashboard**;
 >       * CRUD para agendar assembleias para determinado residencial, condomínio;
 >       * CRUD para agendar áreas comuns de determinado residencial, condomínio;
@@ -178,6 +179,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 >       * CRUD para incluir solicitação para compra de materiais para limpeza e manutenção;
 >       * CRUD para aprovação de pedidos manutenção;
 >       * CRUD para inclusão de mercadorias e correspondências dos moradores (notificação);
+>       * CRUD para inclusão de mercadorias e produtos para uso comum;
 >  - **Módulo Dashboard**;
 >       * CRUD para agendar assembleias para determinado residencial, condomínio;
 >       * CRUD para agendar áreas comuns de determinado residencial, condomínio;
@@ -188,7 +190,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 **Usuário Comum**:
 >   - **Módulo de Gestão do Sistema**;
->       * R(ler)U(atualizar) de usuários (3)
+>       * R(ler)U(atualizar) do próprio usuário (3)
 >  - **Módulo Financeiro**;
 >       * CRUD de despesas/receitas do apartamento;
 >       * Consolidar despesas/receitas do apartamento;
