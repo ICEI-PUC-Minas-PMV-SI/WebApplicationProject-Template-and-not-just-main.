@@ -125,29 +125,29 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 **Administrador Master**:
 >  - **Módulo de Gestão do Sistema**;
->   * CRUD de usuários (1, 2, 3, 4)
->   * CRUD de residenciais, condomínios ou apartamentos.
->   * CRUD e atribuição de responsabilidades por residencial, condomínio ou apartamento;
->   * CRUD de áreas comuns;
+>       * CRUD de usuários (1, 2, 3, 4)
+>       * CRUD de residenciais, condomínios ou apartamentos.
+>       * CRUD e atribuição de responsabilidades por residencial, condomínio ou apartamento;
+>       * CRUD de áreas comuns;
 >  - **Módulo Financeiro**;
->   * CRUD e atribuição de responsabilidades por residencial, condomínio ou apartamento;
->   * CRUD de despesas/receitas por residencial, condomínio ou apartamento;
->   * Consolidar despesas/receitas por residencial, condomínio ou apartamento;
->   * Visualizar relatórios de despesas/receitas por residencial, condomínio ou apartamento;
->   * CRUD de multas aplicadas por residencial, condomínio ou apartamento;
->   * CRUD de despesas/receitas de locações de áreas comuns por residencial, condomínio ou apartamento;
->   * Emissão e disponibilizar (dashboard e/ou envio por e-mail) boleto (primeira e segunda via) para pagamento de condomínio por residencial, condomínio ou apartamento;
+>       * CRUD e atribuição de responsabilidades por residencial, condomínio ou apartamento;
+>       * CRUD de despesas/receitas por residencial, condomínio ou apartamento;
+>       * Consolidar despesas/receitas por residencial, condomínio ou apartamento;
+>       * Visualizar relatórios de despesas/receitas por residencial, condomínio ou apartamento;
+>       * CRUD de multas aplicadas por residencial, condomínio ou apartamento;
+>       * CRUD de despesas/receitas de locações de áreas comuns por residencial, condomínio ou apartamento;
+>       * Emissão e disponibilizar (dashboard e/ou envio por e-mail) boleto (primeira e segunda via) para pagamento de condomínio por residencial, condomínio ou apartamento;
 >  - **Módulo Serviços**;
->   * CRUD para incluir solicitação para compra de materiais para limpeza e manutenção;
->   * CRUD para aprovação de pedidos manutenção;
->   * CRUD para inclusão de mercadorias e correspondências dos moradores (notificação);
+>       * CRUD para incluir solicitação para compra de materiais para limpeza e manutenção;
+>       * CRUD para aprovação de pedidos manutenção;
+>       * CRUD para inclusão de mercadorias e correspondências dos moradores (notificação);
 >  - **Módulo Dashboard**;
->   * CRUD para agendar assembleias para determinado residencial, condomínio;
->   * CRUD para agendar áreas comuns de determinado residencial, condomínio;
->   * Ler, marcar como lido notificações;
+>       * CRUD para agendar assembleias para determinado residencial, condomínio;
+>       * CRUD para agendar áreas comuns de determinado residencial, condomínio;
+>       * Ler, marcar como lido notificações;
 >  - **Módulo Comunicações**;
->   * CRUD para incluir notificações para determinado residencial, condomínio ou apartamento;
->   * CRUD para incluir mensagens gerais (quadro de avisos) para determinado residencial, condomínio ou apartamento;
+>       * CRUD para incluir notificações para determinado residencial, condomínio ou apartamento;
+>       * CRUD para incluir mensagens gerais (quadro de avisos) para determinado residencial, condomínio ou apartamento;
 
 **Administrador**:
 >   - **Módulo de Gestão do Sistema**;
@@ -157,52 +157,52 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 >       * CRUD de áreas comuns;
 >       * CRUD para reserva de áreas comuns;
 >  - **Módulo Financeiro**;
->   * CRUD e atribuição de responsabilidades por residencial, condomínio ou apartamento;
->   * CRUD de despesas/receitas por residencial, condomínio ou apartamento;
->   * Consolidar despesas/receitas por residencial, condomínio ou apartamento;
->   * Visualizar relatórios de despesas/receitas por residencial, condomínio ou apartamento;
->   * CRUD de multas aplicadas por residencial, condomínio ou apartamento;
->   * CRUD de despesas/receitas de locações de áreas comuns por residencial, condomínio ou apartamento;
->   * Emissão e disponibilizar (dashboard e/ou envio por e-mail) boleto (primeira e segunda via) para pagamento de condomínio por residencial, condomínio ou apartamento;
+>       * CRUD e atribuição de responsabilidades por residencial, condomínio ou apartamento;
+>       * CRUD de despesas/receitas por residencial, condomínio ou apartamento;
+>       * Consolidar despesas/receitas por residencial, condomínio ou apartamento;
+>       * Visualizar relatórios de despesas/receitas por residencial, condomínio ou apartamento;
+>       * CRUD de multas aplicadas por residencial, condomínio ou apartamento;
+>       * CRUD de despesas/receitas de locações de áreas comuns por residencial, condomínio ou apartamento;
+>       * Emissão e disponibilizar (dashboard e/ou envio por e-mail) boleto (primeira e segunda via) para pagamento de condomínio por residencial, condomínio ou apartamento;
 >  - **Módulo Serviços**;
->   * CRUD para incluir solicitação para compra de materiais para limpeza e manutenção;
->   * CRUD para aprovação de pedidos manutenção;
->   * CRUD para inclusão de mercadorias e correspondências dos moradores (notificação);
+>       * CRUD para incluir solicitação para compra de materiais para limpeza e manutenção;
+>       * CRUD para aprovação de pedidos manutenção;
+>       * CRUD para inclusão de mercadorias e correspondências dos moradores (notificação);
 >  - **Módulo Dashboard**;
->   * CRUD para agendar assembleias para determinado residencial, condomínio;
->   * CRUD para agendar áreas comuns de determinado residencial, condomínio;
->   * Ler, marcar como lido notificações;
+>       * CRUD para agendar assembleias para determinado residencial, condomínio;
+>       * CRUD para agendar áreas comuns de determinado residencial, condomínio;
+>       * Ler, marcar como lido notificações;
 >  - **Módulo Comunicações**;
->   * CRUD para incluir notificações para determinado residencial, condomínio ou apartamento;
->   * CRUD para incluir mensagens gerais (quadro de avisos) para determinado residencial, condomínio ou apartamento;
+>       * CRUD para incluir notificações para determinado residencial, condomínio ou apartamento;
+>       * CRUD para incluir mensagens gerais (quadro de avisos) para determinado residencial, condomínio ou apartamento;
 
 **Usuário Comum**:
 >   - **Módulo de Gestão do Sistema**;
 >       * R(ler)U(atualizar) de usuários (3)
 >  - **Módulo Financeiro**;
->   * CRUD de despesas/receitas do apartamento;
->   * Consolidar despesas/receitas do apartamento;
->   * Visualizar relatórios de despesas/receitas do apartamento;
->   * RU (atualizar/contestar/incluir recibo) de multas aplicadas do apartamento;
->   * R de despesas/receitas de locações de áreas comuns do apartamento;
->   * Emissão ou envio por e-mail de boleto (primeira e segunda via) para pagamento de condomínio do apartamento;
+>       * CRUD de despesas/receitas do apartamento;
+>       * Consolidar despesas/receitas do apartamento;
+>       * Visualizar relatórios de despesas/receitas do apartamento;
+>       * RU (atualizar/contestar/incluir recibo) de multas aplicadas do apartamento;
+>       * R de despesas/receitas de locações de áreas comuns do apartamento;
+>       * Emissão ou envio por e-mail de boleto (primeira e segunda via) para pagamento de condomínio do apartamento;
 >  - **Módulo Dashboard**;
->   * R de agenda das assembleias do condomínio;
->   * CRUD para agendar áreas comuns do condomínio;
->   * Ler, marcar como lido notificações;
+>       * R de agenda das assembleias do condomínio;
+>       * CRUD para agendar áreas comuns do condomínio;
+>       * Ler, marcar como lido notificações;
 >  - **Módulo Comunicações**;
->   * R e marcar como lida notificações do condomínio (somente usuário atual) ou do apartamento;
->   * R e marcar como lida mensagens gerais (quadro de avisos) do condomínio ou do apartamento;
+>       * R e marcar como lida notificações do condomínio (somente usuário atual) ou do apartamento;
+>       * R e marcar como lida mensagens gerais (quadro de avisos) do condomínio ou do apartamento;
 
 **Funcionário**:
 >  - **Módulo Serviços**;
->   * CRUD para incluir solicitação para compra de materiais para limpeza e manutenção;
->   * R de aprovação de pedidos manutenção;
->   * CRUD para inclusão de mercadorias e correspondências dos moradores (notificação);
+>       * CRUD para incluir solicitação para compra de materiais para limpeza e manutenção;
+>       * R de aprovação de pedidos manutenção;
+>       * CRUD para inclusão de mercadorias e correspondências dos moradores (notificação);
 >  - **Módulo Dashboard**;
->   * Ler, marcar como lido notificações;
+>       * Ler, marcar como lido notificações;
 >  - **Módulo Comunicações**;
->   * CRUD para incluir notificações para determinado residencial, condomínio ou apartamento;
+>       * CRUD para incluir notificações para determinado residencial, condomínio ou apartamento;
 
 `DRAFT`
 
