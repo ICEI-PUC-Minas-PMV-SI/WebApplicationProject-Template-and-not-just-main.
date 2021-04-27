@@ -105,10 +105,48 @@ aumentar a fadiga de Jaiminho e deixar o serviço mais cedo e ir à casa de sua 
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+| Id | Perfil / Persona     | Descrição                              |
+|----|----------------------|----------------------------------------|
+| 1  | Administrador Master | Desenvolvedor, CEO                     |
+| 2  | Administrador        | Desenvolvedor, CEO                     |
+| 3  | Usuário comum        | Condômino, proprietário do apartamento |
+| 4  | Funcionário          |                                        |
+
+|EU COMO... `PERSONA`   | QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                                  |
+|-----------------------|------------------------------------|---------------------------------------------------------|
+|1                      | Alterar permissões                 | Permitir que possam administrar contas e/ou condomínios |
+|1                      | Cadastrar condomínios              | Permitir que possam criar condomínios a serem gerenciados |
+|1, 2                   | Alterar permissões                 | Permitir que possam administrar contas                  |
+|1, 2                   | Cadastrar usuários (3), funcionários (4)                 | Permitir que possam administrar contas                  |
+
+> `CRUD: Criar (Create), Ler (Read), Apagar (Delete), Atualizar (Update);`
+
+`DRAFT`
+
+**Administrador Master**:
+>  - **Módulo de Gestão do Sistema**;
+>   * CRUD de usuários (1, 2, 3, 4)
+>   * CRUD de residenciais, condomínios ou apartamentos.
+>   * CRUD e atribuição de responsabilidades por residencial, condomínio ou apartamento;
+>   * CRUD de áreas comuns;
+>   * CRUD para reserva de áreas comuns;
+>  - **Módulo Financeiro**;
+>   * CRUD e atribuição de responsabilidades por residencial, condomínio ou apartamento;
+>   * CRUD de despesas/receitas por residencial, condomínio ou apartamento;
+>   * Consolidar despesas/receitas por residencial, condomínio ou apartamento;
+>   * Visualizar relatórios de despesas/receitas por residencial, condomínio ou apartamento;
+>   * CRUD de multas aplicadas por residencial, condomínio ou apartamento;
+>   * CRUD de despesas/receitas de locações de áreas comuns por residencial, condomínio ou apartamento;
+>   * Emissão e disponibilizar (dashboard e/ou envio por e-mail) boleto (primeira e segunda via) para pagamento de condomínio por residencial, condomínio ou apartamento;
+>  - **Módulo Serviços**;
+>   * ;
+>  - **Módulo Dashboard**;
+>   * ;
+>  - **Módulo Comunicações**;
+>   * ;
+
+`DRAFT`
+
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
