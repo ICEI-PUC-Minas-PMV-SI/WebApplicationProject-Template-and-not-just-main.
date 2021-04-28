@@ -113,7 +113,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | 2  | Administrador        | Desenvolvedor, CEO, Empresa, Síndico               |
 | 3  | Usuário comum        | Condômino, proprietário e inquilino do apartamento |
 | 4  | Funcionário          | Porteiro, Zelador, Faxineira, etc                  |
-
+<br>
 **Tabela de ação básica do usuário:**
 
 | Id | Ação                 | Código |
@@ -122,7 +122,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | 2  | Ler (Read)           | (R)    |
 | 3  | Atualizar (Update)   | (U)    |
 | 4  | Apagar (Delete)      | (D)    |
-
+| 5  | Atribuição           | (AT)   |
+| 6  | Arquivar             | (AR)   |
+| 7  | Marcar como lido     | (ML)   |
+<br>
 
 |EU COMO... `PERSONA`   | QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                                  |
 |-----------------------|------------------------------------|---------------------------------------------------------|
@@ -239,39 +242,54 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |   1    | ALTA        |
 |   2    | MÉDIA       |
 |   3    | BAIXA       |
+<br>
 
-|ID    | Descrição do Requisito                  | Prioridade |
-|------|-----------------------------------------|------------|
-|RF-001| CRUD de usuários                        | 1          | 
-|RF-002| CRUD de residenciais, condomínios ou apartamentos.  | 1          |
-|RF-003| CRUD e atribuição de responsabilidades por residencial, condomínio ou apartamento;  | 1        |
-|RF-004| CRUD de áreas comuns;   | 1         |
+#### Módulo de Gestão do Sistema
+|ID    | Descrição do Requisito                                                                                                                                               | Prioridade |
+|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+|RF-001| CRUD de usuários.                                                                                                                                                    | 1          | 
+|RF-002| CRUD de residenciais, condomínios ou apartamentos.                                                                                                                   | 1          |
+|RF-003| CRUD e atribuição (AT) de responsabilidades por residencial, condomínio ou apartamento.                                                                              | 1          |
+|RF-004| CRUD de áreas comuns.                                                                                                                                                | 1          |
 
-|RF-005|   CRUD e atribuição de responsabilidades por residencial, condomínio ou apartamento; | 1        |
-|RF-006| CRUD de despesas/receitas por residencial, condomínio ou apartamento; | 2          |
-|RF-007| Consolidar despesas/receitas por residencial, condomínio ou apartamento;| 2          |
-|RF-008| Visualizar relatórios de despesas/receitas por residencial, condomínio ou apartamento;  | 2          |
-|RF-009| CRUD de multas aplicadas por residencial, condomínio ou apartamento;   | 2          |
-|RF-010|  CRUD de despesas/receitas de locações de áreas comuns por residencial, condomínio ou apartamento; | 2          |
-|RF-011| Emissão e disponibilizar (dashboard e/ou envio por e-mail) boleto (primeira e segunda via) para pagamento de condomínio por residencial, condomínio ou apartamento;  | 3          |
-|RF-012| CRUD para incluir solicitação para compra de materiais para limpeza e manutenção;   | 2          |
-|RF-013| CRUD para aprovação de pedidos manutenção;  | 2          |
-|RF-014| CRUD para inclusão de mercadorias e correspondências dos moradores (notificação);   | 2          |
-|RF-015| CRUD para inclusão de mercadorias e produtos para uso comum;| 2          |
+#### Módulo Financeiro
+|ID    | Descrição do Requisito                                                                                                                                               | Prioridade |
+|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+|RF-005| CRUD e atribuição (AT) de responsabilidades por residencial, condomínio ou apartamento.                                                                              | 1          |
+|RF-006| CRUD de despesas/receitas por residencial, condomínio ou apartamento.                                                                                                | 2          |
+|RF-007| Consolidar despesas/receitas por residencial, condomínio ou apartamento.                                                                                             | 2          |
+|RF-008| Visualizar relatórios de despesas/receitas por residencial, condomínio ou apartamento.                                                                               | 2          |
+|RF-009| CRUD de multas aplicadas por residencial, condomínio ou apartamento.                                                                                                 | 2          |
+|RF-010| CRUD de despesas/receitas de locações de áreas comuns por residencial, condomínio ou apartamento.                                                                    | 2          |
+|RF-011| Emissão e disponibilizar (dashboard e/ou envio por e-mail) boleto (primeira e segunda via) para pagamento de condomínio por residencial, condomínio ou apartamento.  | 3          |
 
-|RF-016|  CRUD para agendar assembleias para determinado residencial, condomínio;  | 1          |
-|RF-017|  CRUD para agendar áreas comuns de determinado residencial, condomínio; | 2          |
-|RF-018|  Ler, marcar como lido notificações; | 3          |
+#### Módulo de Serviços
+|ID    | Descrição do Requisito                                                                                                                                               | Prioridade |
+|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+|RF-012| CRUD para incluir solicitação de compra de materiais para limpeza e manutenção.                                                                                      | 2          |
+|RF-013| CRUD para aprovação de pedidos manutenção.                                                                                                                           | 2          |
+|RF-014| CRUD para inclusão de mercadorias e correspondências dos moradores (notificação).                                                                                    | 2          |
+|RF-015| CRUD para inclusão de mercadorias, bens e produtos para uso comum.                                                                                                   | 2          |
 
-|RF-019|  CRUD para incluir notificações para determinado residencial, condomínio ou apartamento;  | 3          |
-|RF-020| CRUD para incluir mensagens gerais (quadro de avisos) para determinado residencial, condomínio ou apartamento; | 2          |
+#### Módulo Dashboard
+|ID    | Descrição do Requisito                                                                                                                                               | Prioridade |
+|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+|RF-016| CRUD para agendar assembleias para determinado residencial, condomínio.                                                                                              | 1          |
+|RF-017| CRUD para agendar áreas comuns de determinado residencial, condomínio.                                                                                               | 2          |
+|RF-018| Ler (R), marcar como lido notificações (ML).                                                                                                                         | 3          |
+
+#### Módulo Comunicações
+|ID    | Descrição do Requisito                                                                                                                                               | Prioridade |
+|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+|RF-019| CRUD para incluir notificações para determinado residencial, condomínio ou apartamento.                                                                              | 3          |
+|RF-020| CRUD para incluir mensagens gerais (quadro de avisos) para determinado residencial, condomínio ou apartamento.                                                       | 2          |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Possibilidade de alterar o modo escuro para o modo claro |  BAIXA | 
+|ID     | Descrição do Requisito                                                                                                                                              | Prioridade |
+|-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel.                                                                                                  | 2          | 
+|RNF-002| Possibilidade de alterar o tema de modo escuro (dark mode) para o modo claro (light mode).                                                                          | 3          | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
