@@ -33,7 +33,7 @@ intercâmbio. Está buscando uma agência que o ajude a encontrar universidades 
 `Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.`
 
 ### Seu Barriga
-<p style="text-align: center">
+<p style="text-align: center;width: 100%">
     <img src="img/personas/seu-barriga.png" alt="Seu barriga" style="width: 100px; height: 100px">
 </p>
 
@@ -44,7 +44,7 @@ ferramentas, criando maiores possibilidades de delegar mais responsabilidades ge
 que ocorrem em seus empreendimentos, a qualquer momento e a um toque/clique de distância em seus dispositivos (smartphones, computadores, tablets, entre outros...).
 
 ### Chaves
-<p style="text-align: center">
+<p style="text-align: center;width: 100%">
     <img src="img/personas/chaves.png" alt="Chaves" style="width: 100px; height: 100px">
 </p>
 
@@ -59,7 +59,7 @@ dos moradores e dos funcionários, uma vez que após ter a solução finalizada,
 residenciais do Seu Barriga.
 
 ### Dona Florinda
-<p style="text-align: center">
+<p style="text-align: center;width: 100%">
     <img src="img/personas/dona-florinda.png" alt="Dona Florinda" style="width: 100px; height: 100px">
 </p>
 
@@ -69,7 +69,7 @@ residencial Hector Bonilla, porém por ser uma pessoa perfeccionista e sistemát
 se informar sobre tudo o que acontece no condomínio, seja a respeito dos gastos, das reuniões e sobre eventos realizados (nem que seja para fofocar 😅).
 
 ### Godinez
-<p style="text-align: center">
+<p style="text-align: center;width: 100%">
 <img src="img/personas/godinez.png" alt="Godinez" style="width: 100px; height: 100px">
 </p>
 
@@ -81,7 +81,7 @@ Em algumas conversas com o síndico Chaves, Godinez havia perguntado se teria al
 está sendo tratado com o Seu Barriga (senhorio).
 
 ### Dona Clotilde
-<p style="text-align: center">
+<p style="text-align: center;width: 100%">
     <img src="img/personas/dona-clotilde.png" alt="Dona Clotilde" style="width: 100px; height: 100px">
 </p>
 
@@ -91,7 +91,7 @@ limpeza e nisto ela sempre falava com o zelador Godinez e outras vezes com o sí
 suas novelas mexicanas, Maria do Bairro e em seguida A Usurpadora. Por fim, era mais um gasto desnecessários para o condomínio.
 
 ### Jaiminho
-<p style="text-align: center">
+<p style="text-align: center;width: 100%">
     <img src="img/personas/jaiminho.png" alt="Jaiminho" style="width: 100px; height: 100px">
 </p>
 
@@ -114,6 +114,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | 3  | Usuário comum        | Condômino, proprietário e inquilino do apartamento |
 | 4  | Funcionário          | Porteiro, Zelador, Faxineira, etc                  |
 <br>
+
 **Tabela de ação básica do usuário:**
 
 | Id | Ação                 | Código |
@@ -127,99 +128,72 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | 7  | Marcar como lido     | (ML)   |
 <br>
 
-|EU COMO... `PERSONA`   | QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                                  |
-|-----------------------|------------------------------------|---------------------------------------------------------|
-|1                      | Alterar permissões                 | Permitir que possam administrar contas e/ou condomínios |
-|1                      | Cadastrar condomínios              | Permitir que possam criar condomínios a serem gerenciados |
-|1, 2                   | Alterar permissões                 | Permitir que possam administrar contas                  |
-|1, 2                   | Cadastrar usuários (3), funcionários (4)                 | Permitir que possam administrar contas                  |
+#### Módulo de Gestão do Sistema
+|EU COMO... `PERSONA`   | QUERO/PRECISO ... `FUNCIONALIDADE`                                                                                                                                              | PARA ... `MOTIVO/VALOR`                                                                                    |                                                                              
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+|1, 2, 3                | CRUD de usuários.<sup>1</sup>                                                                                                                                                   | CRUD dos usuários bem como de seus atributos.                                                              | 
+|1, 2                   | CRUD de residenciais, condomínios ou apartamentos.                                                                                                                              | Ser utilizado no sistema de acordo com as necessidades de cada gestão                                      |
+|1, 2                   | CRUD e atribuição (AT) de responsabilidades por residencial, condomínio ou apartamento.                                                                                         | Definir quem serão os responsáveis por cada categoria                                                      |
+|1, 2                   | CRUD de áreas comuns.                                                                                                                                                           | Para ser utilizado em cada residencial e/ou condomínio de acordo com a necessidade                         |
 
-`DRAFT: Após colocar no formato oficial`
+<sup>1</sup>**Admiinistrador Master**: Perfis e personas 1, 2, 3 e 4; **Administrador**: Perfis e personas 3 e 4; **Usuário comum**: Ler e atualizar o próprio perfil
 
-**Administrador Master**:
->  - **Módulo de Gestão do Sistema**;
->       * CRUD de usuários (1, 2, 3, 4)
->       * CRUD de residenciais, condomínios ou apartamentos.
->       * CRUD e atribuição de responsabilidades por residencial, condomínio ou apartamento;
->       * CRUD de áreas comuns;
->  - **Módulo Financeiro**;
->       * CRUD e atribuição de responsabilidades por residencial, condomínio ou apartamento;
->       * CRUD de despesas/receitas por residencial, condomínio ou apartamento;
->       * Consolidar despesas/receitas por residencial, condomínio ou apartamento;
->       * Visualizar relatórios de despesas/receitas por residencial, condomínio ou apartamento;
->       * CRUD de multas aplicadas por residencial, condomínio ou apartamento;
->       * CRUD de despesas/receitas de locações de áreas comuns por residencial, condomínio ou apartamento;
->       * Emissão e disponibilizar (dashboard e/ou envio por e-mail) boleto (primeira e segunda via) para pagamento de condomínio por residencial, condomínio ou apartamento;
->  - **Módulo Serviços**;
->       * CRUD para incluir solicitação para compra de materiais para limpeza e manutenção;
->       * CRUD para aprovação de pedidos manutenção;
->       * CRUD para inclusão de mercadorias e correspondências dos moradores (notificação);
->       * CRUD para inclusão de mercadorias e produtos para uso comum;
->  - **Módulo Dashboard**;
->       * CRUD para agendar assembleias para determinado residencial, condomínio;
->       * CRUD para agendar áreas comuns de determinado residencial, condomínio;
->       * Ler, marcar como lido notificações;
->  - **Módulo Comunicações**;
->       * CRUD para incluir notificações para determinado residencial, condomínio ou apartamento;
->       * CRUD para incluir mensagens gerais (quadro de avisos) para determinado residencial, condomínio ou apartamento;
 
-**Administrador**:
->   - **Módulo de Gestão do Sistema**;
->       * CRUD de usuários (3, 4)
->       * CRUD de residenciais, condomínios ou apartamentos.
->       * CRUD e atribuição de responsabilidades por residencial, condomínio ou apartamento;
->       * CRUD de áreas comuns;
->       * CRUD para reserva de áreas comuns;
->  - **Módulo Financeiro**;
->       * CRUD e atribuição de responsabilidades por residencial, condomínio ou apartamento;
->       * CRUD de despesas/receitas por residencial, condomínio ou apartamento;
->       * Consolidar despesas/receitas por residencial, condomínio ou apartamento;
->       * Visualizar relatórios de despesas/receitas por residencial, condomínio ou apartamento;
->       * CRUD de multas aplicadas por residencial, condomínio ou apartamento;
->       * CRUD de despesas/receitas de locações de áreas comuns por residencial, condomínio ou apartamento;
->       * Emissão e disponibilizar (dashboard e/ou envio por e-mail) boleto (primeira e segunda via) para pagamento de condomínio por residencial, condomínio ou apartamento;
->  - **Módulo Serviços**;
->       * CRUD para incluir solicitação para compra de materiais para limpeza e manutenção;
->       * CRUD para aprovação de pedidos manutenção;
->       * CRUD para inclusão de mercadorias e correspondências dos moradores (notificação);
->       * CRUD para inclusão de mercadorias e produtos para uso comum;
->  - **Módulo Dashboard**;
->       * CRUD para agendar assembleias para determinado residencial, condomínio;
->       * CRUD para agendar áreas comuns de determinado residencial, condomínio;
->       * Ler, marcar como lido notificações;
->  - **Módulo Comunicações**;
->       * CRUD para incluir notificações para determinado residencial, condomínio ou apartamento;
->       * CRUD para incluir mensagens gerais (quadro de avisos) para determinado residencial, condomínio ou apartamento;
+#### Módulo Financeiro
+|EU COMO... `PERSONA`   | QUERO/PRECISO ... `FUNCIONALIDADE`                                                                                                                                              | PARA ... `MOTIVO/VALOR`                                                                                    |                                                                              
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+|1, 2                   | CRUD e atribuição (AT) de responsabilidades por residencial, condomínio ou apartamento.                                                                                         | Definir quem serão os responsáveis por cada categoria referente ao módulo financeiro.                      |
+|1, 2, 3                | CRUD de despesas/receitas por residencial, condomínio ou apartamento.<sup>2</sup>                                                                                               | Despesas e receitas provenientes de serviços executados, compra de materiais, recebíveis, entre outros.    |
+|1, 2                   | Consolidar despesas/receitas por residencial, condomínio ou apartamento.                                                                                                        | Consolidar dados para posteriormente emitir os relatórios por categoria.                                   |
+|1, 2, 3                | Visualizar relatórios de despesas/receitas por residencial, condomínio ou apartamento.<sup>3</sup>                                                                              | Emitir relatórios financeiros para dar maior transparência aos condôminos.                                 |
+|1, 2, 3                | CRUD de multas aplicadas por residencial, condomínio ou apartamento.<sup>4</sup>                                                                                                | Lançar, contestar, cancelar e atualizar multas aplicadas pelos administradores.                            |
+|1, 2, 3                | CRUD de despesas/receitas de locações de áreas comuns por residencial, condomínio ou apartamento.<sup>5</sup>                                                                   | Despesas e receitas relacionadas aos aluguéis das áreas comuns.                                            |
+|1, 2, 3                | Emissão e disponibilizar (dashboard e/ou envio por e-mail) boleto (primeira e segunda via) para pagamento de condomínio por residencial, condomínio ou apartamento.<sup>6</sup> | Gerar (somente administradores) e emitir boletos referente ao apartamento.                                 |
 
-**Usuário Comum**:
->   - **Módulo de Gestão do Sistema**;
->       * R(ler)U(atualizar) do próprio usuário (3)
->  - **Módulo Financeiro**;
->       * CRUD de despesas/receitas do apartamento;
->       * Consolidar despesas/receitas do apartamento;
->       * Visualizar relatórios de despesas/receitas do apartamento;
->       * RU (atualizar/contestar/incluir recibo) de multas aplicadas do apartamento;
->       * R de despesas/receitas de locações de áreas comuns do apartamento;
->       * Emissão ou envio por e-mail de boleto (primeira e segunda via) para pagamento de condomínio do apartamento;
->  - **Módulo Dashboard**;
->       * R de agenda das assembleias do condomínio;
->       * CRUD para agendar áreas comuns do condomínio;
->       * Ler, marcar como lido notificações;
->  - **Módulo Comunicações**;
->       * R e marcar como lida notificações do condomínio (somente usuário atual) ou do apartamento;
->       * R e marcar como lida mensagens gerais (quadro de avisos) do condomínio ou do apartamento;
+<sup>2</sup>**Usuário comum**: CRUD de despesas/receitas do apartamento.<br>
+<sup>3</sup>**Usuário comum**: Visualizar relatórios de despesas/receitas do apartamento.<br>
+<sup>4</sup>**Usuário comum**: RU (atualizar/contestar/incluir recibo) de multas aplicadas do apartamento.<br>
+<sup>5</sup>**Usuário comum**: R de despesas/receitas de locações de áreas comuns do apartamento.<br>
+<sup>6</sup>**Usuário comum**: Emissão ou envio por e-mail de boleto (primeira e segunda via) para pagamento de condomínio do apartamento.<br>
 
-**Funcionário**:
->  - **Módulo Serviços**;
->       * CRUD para incluir solicitação para compra de materiais para limpeza e manutenção;
->       * R de aprovação de pedidos manutenção;
->       * CRUD para inclusão de mercadorias e correspondências dos moradores (notificação);
->  - **Módulo Dashboard**;
->       * Ler, marcar como lido notificações;
->  - **Módulo Comunicações**;
->       * CRUD para incluir notificações para determinado residencial, condomínio ou apartamento;
 
-`DRAFT`
+#### Módulo de Serviços
+|EU COMO... `PERSONA`   | QUERO/PRECISO ... `FUNCIONALIDADE`                                                                                                                                              | PARA ... `MOTIVO/VALOR`                                                                                    |                                                                              
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+|1, 2, 4                | CRUD para incluir solicitação de compra de materiais para limpeza e manutenção.                                                                                                 | Que sejam gerenciadas as demandas de compras de materiais de manutenção e ou limpeza                       |
+|1, 2, 4                | CRUD para aprovação de pedidos manutenção.<sup>7</sup>                                                                                                                          | Que os administradores possam aprovar os pedidos que foram solicitados pelos funcionários                  |
+|1, 2, 4                | CRUD para inclusão de mercadorias e correspondências dos moradores (notificação).                                                                                               | Em caso de chegada de correspondência e/ou mercadorias, os moradores recebam notificação                   |
+|1, 2                   | CRUD para inclusão de mercadorias, bens e produtos para uso comum.                                                                                                              | Inclusão de compras de materiais e mercadorias que serão utilizadas em uso comum dos condôminos            |
+
+<sup>7</sup>**Funcionário**: (R) de aprovação de pedidos manutenção.<br>
+
+
+#### Módulo Dashboard
+|EU COMO... `PERSONA`   | QUERO/PRECISO ... `FUNCIONALIDADE`                                                                                                                                              | PARA ... `MOTIVO/VALOR`                                                                                    |                                                                              
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+|1, 2, 3                | CRUD para agendar assembleias para determinado residencial, condomínio.<sup>8</sup>                                                                                             | Deixar disponível na página inicial do usuário (dashboard)                                                 |
+|1, 2, 3                | CRUD para agendar áreas comuns de determinado residencial, condomínio.<sup>9</sup>                                                                                              | Deixar disponível na página inicial do usuário (dashboard) e popular dados para os demais módulos          |
+|1, 2, 3, 4             | Ler (R), marcar como lido notificações (ML).                                                                                                                                    | Limpar as notificações lidas e/ou irrelevantes para o usuário                                              |
+
+<sup>8</sup>**Usuário comum**: Somente leitura referente ao condomínio do apartamento do morador.<br>
+<sup>9</sup>**Usuário comum**: Referente ao condomínio do apartamento do morador.<br>
+
+#### Módulo Comunicações
+|EU COMO... `PERSONA`   | QUERO/PRECISO ... `FUNCIONALIDADE`                                                                                                                                              | PARA ... `MOTIVO/VALOR`                                                                                    |                                                                              
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+|1, 2, 3                | CRUD para incluir notificações para determinado residencial, condomínio ou apartamento.<sup>10</sup>                                                                            | Notificar as pessoas interessadas por cada categoria                                                       |
+|1, 2, 3, 4             | CRUD para incluir mensagens gerais (quadro de avisos) para determinado residencial, condomínio ou apartamento.<sup>11</sup>                                                     | Notificar as pessoas interessadas por cada categoria                                                       |
+
+<sup>10</sup>**Usuário comum**: Somente leitura e marcar como lida referente ao condomínio do apartamento do morador.<br>
+<sup>11</sup>**Usuário comum**: Somente leitura e marcar como lida referente ao condomínio do apartamento do morador.<br>
+
+
+### Requisitos não Funcionais
+
+|ID     | Descrição do Requisito                                                                                                                                              | Prioridade |
+|-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel.                                                                                                  | 2          | 
+|RNF-002| Possibilidade de alterar o tema de modo escuro (dark mode) para o modo claro (light mode).
 
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
@@ -310,10 +284,10 @@ Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Cla
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+| ID | Restrição                                             |
+|----|-------------------------------------------------------|
+|01  | O projeto deverá ser entregue até o final do semestre |
+|02  | Não pode ser desenvolvido um módulo de backend        |
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
