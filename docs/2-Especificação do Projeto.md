@@ -247,23 +247,23 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003| CRUD e atribuição de responsabilidades por residencial, condomínio ou apartamento;  | 1        |
 |RF-004| CRUD de áreas comuns;   | 1         |
 
-|RF-005|   CRUD e atribuição de responsabilidades por residencial, condomínio ou apartamento; | 2          |
+|RF-005|   CRUD e atribuição de responsabilidades por residencial, condomínio ou apartamento; | 1        |
 |RF-006| CRUD de despesas/receitas por residencial, condomínio ou apartamento; | 2          |
 |RF-007| Consolidar despesas/receitas por residencial, condomínio ou apartamento;| 2          |
 |RF-008| Visualizar relatórios de despesas/receitas por residencial, condomínio ou apartamento;  | 2          |
 |RF-009| CRUD de multas aplicadas por residencial, condomínio ou apartamento;   | 2          |
 |RF-010|  CRUD de despesas/receitas de locações de áreas comuns por residencial, condomínio ou apartamento; | 2          |
-|RF-011| Emissão e disponibilizar (dashboard e/ou envio por e-mail) boleto (primeira e segunda via) para pagamento de condomínio por residencial, condomínio ou apartamento;  | 2          |
+|RF-011| Emissão e disponibilizar (dashboard e/ou envio por e-mail) boleto (primeira e segunda via) para pagamento de condomínio por residencial, condomínio ou apartamento;  | 3          |
 |RF-012| CRUD para incluir solicitação para compra de materiais para limpeza e manutenção;   | 2          |
 |RF-013| CRUD para aprovação de pedidos manutenção;  | 2          |
 |RF-014| CRUD para inclusão de mercadorias e correspondências dos moradores (notificação);   | 2          |
 |RF-015| CRUD para inclusão de mercadorias e produtos para uso comum;| 2          |
 
-|RF-016|  CRUD para agendar assembleias para determinado residencial, condomínio;  | 2          |
+|RF-016|  CRUD para agendar assembleias para determinado residencial, condomínio;  | 1          |
 |RF-017|  CRUD para agendar áreas comuns de determinado residencial, condomínio; | 2          |
-|RF-018|  Ler, marcar como lido notificações; | 2          |
+|RF-018|  Ler, marcar como lido notificações; | 3          |
 
-|RF-019|  CRUD para incluir notificações para determinado residencial, condomínio ou apartamento;  | 2          |
+|RF-019|  CRUD para incluir notificações para determinado residencial, condomínio ou apartamento;  | 3          |
 |RF-020| CRUD para incluir mensagens gerais (quadro de avisos) para determinado residencial, condomínio ou apartamento; | 2          |
 
 ### Requisitos não Funcionais
@@ -274,32 +274,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| Possibilidade de alterar o modo escuro para o modo claro |  BAIXA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-Administrador Master**:
->  - **Módulo de Gestão do Sistema**;
->       * CRUD de usuários (1, 2, 3, 4)
->       * CRUD de residenciais, condomínios ou apartamentos.
->       * CRUD e atribuição de responsabilidades por residencial, condomínio ou apartamento;
->       * CRUD de áreas comuns;
->  - **Módulo Financeiro**;
->       * CRUD e atribuição de responsabilidades por residencial, condomínio ou apartamento;
->       * CRUD de despesas/receitas por residencial, condomínio ou apartamento;
->       * Consolidar despesas/receitas por residencial, condomínio ou apartamento;
->       * Visualizar relatórios de despesas/receitas por residencial, condomínio ou apartamento;
->       * CRUD de multas aplicadas por residencial, condomínio ou apartamento;
->       * CRUD de despesas/receitas de locações de áreas comuns por residencial, condomínio ou apartamento;
->       * Emissão e disponibilizar (dashboard e/ou envio por e-mail) boleto (primeira e segunda via) para pagamento de condomínio por residencial, condomínio ou apartamento;
->  - **Módulo Serviços**;
->       * CRUD para incluir solicitação para compra de materiais para limpeza e manutenção;
->       * CRUD para aprovação de pedidos manutenção;
->       * CRUD para inclusão de mercadorias e correspondências dos moradores (notificação);
->       * CRUD para inclusão de mercadorias e produtos para uso comum;
->  - **Módulo Dashboard**;
->       * CRUD para agendar assembleias para determinado residencial, condomínio;
->       * CRUD para agendar áreas comuns de determinado residencial, condomínio;
->       * 
->  - **Módulo Comunicações**;
->       * CRUD para incluir notificações para determinado residencial, condomínio ou apartamento;
->       * CRUD para incluir notificações para determinado residencial, condomínio ou apartamento;
+
 - [Requisitos Funcionais
   (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
   correspondem a uma funcionalidade que deve estar presente na
@@ -321,7 +296,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
