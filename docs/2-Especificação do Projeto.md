@@ -1,6 +1,6 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+<span style="color: red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
 `Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além
 das restrições do projeto.`
@@ -41,7 +41,7 @@ Senhor Barrinha (mais conhecido como Seu Barriga) tem 53 anos de idade, solteiro
 Brasil. Por uma questão de tempo, economia financeira, eficiência e qualidade do serviço prestado aos condôminos e principalmente objetivando focar seus esforços no que realmente lhe traz maiores
 benefícios nos negócios, Seu Barriga decidiu iniciar o processo de digitalização de seus negócios através de soluções ágeis, no qual lhe trará maior flexibilidade com a implementação destas
 ferramentas, criando maiores possibilidades de delegar mais responsabilidades gestionais para seus funcionários, lhes dando maior autonomia, além de conseguir acompanhar de perto todas as transações
-que ocorrem em seus empreendimentos, a qualquer momento e a um toque/clique de distância em seus dispositivos (smartphones, computadores, tablets, entre outros...).
+que ocorrem em seus empreendimentos, a qualquer momento e a um toque/clique de distância em seus dispositivos (smartphones, computadores, tablets, entre outros…).
 
 ### Chaves
 <p style="text-align: center;width: 100%">
@@ -74,7 +74,7 @@ se informar sobre tudo o que acontece no condomínio, seja a respeito dos gastos
 </p>
 
 Godinez, 41 anos, é um profissional exemplar que trabalha como zelador do prédio antes mesmo do primeiro morador. Ele conhece cada detalhe das atividades necessárias para executar as devidas
-manutenções do condomínio, mas Godinez encontra algumas dificuldades de comunicação com o síndico, que devido a esto, faz com que seu trabalho fique atrasaso. Alguns problemas que ele
+manutenções do condomínio, mas Godinez encontra algumas dificuldades de comunicação com o síndico, que devido a isto, faz com que seu trabalho fique atrasado. Alguns problemas que ele
 necessita comunicar ao síndico seria a compra de materiais para efetuar determinada manutenção, autorização formal de algumas atividades supervisionadas pelo síndico.
 
 Em algumas conversas com o síndico Chaves, Godinez havia perguntado se teria alguma forma de resolver estas pequenas dificuldades do dia a dia e que teve uma reposta positiva de que este assunto
@@ -87,18 +87,18 @@ está sendo tratado com o Seu Barriga (senhorio).
 
 Dona Clotilde de 60 anos, aposentada que não consegue ficar sem trabalhar, é a faxineira e o "jornal ambulante" do prédio, pois tem a necessidade de saber de tudo que acontece no condomínio e não
 perde uma fofoca para colocar a conversa em dia. Apesar disso, ela trabalha no prédio três vezes por semana, mas em alguns casos, ela não pôde concluir suas atividades porque faltavam materiais de
-limpeza e nisto ela sempre falava com o zelador Godinez e outras vezes com o síndico Chaves. Nestes casos Dona Clotilde não achava tão ruim, porque recebia sua diária e poderia ir para casa assistir
-suas novelas mexicanas, Maria do Bairro e em seguida A Usurpadora. Por fim, era mais um gasto desnecessários para o condomínio.
+limpeza e nisto ela sempre falava com o zelador Godinez e outras vezes com o síndico Chaves. Nestes casos, Dona Clotilde não achava tão ruim, porque recebia sua diária e poderia ir para casa assistir
+suas novelas mexicanas, Maria do Bairro e em seguida A Usurpadora. Por fim, era mais um gasto desnecessário para o condomínio.
 
 ### Jaiminho
 <p style="text-align: center;width: 100%">
     <img src="img/personas/jaiminho.png" alt="Jaiminho" style="width: 100px; height: 100px">
 </p>
 
-Jaiminho, ex-carteiro, aposentado pelos Correios, tem 67 anos, é o porteiro do condomínio Hector Bonilla. Jaiminho é da cidade de Tangamandapio e agora mora em Betim para ficar perto de sua filha
+Jaiminho, ex-carteiro, aposentado pelos Correios, tem 67 anos, é o porteiro do condomínio Hector Bonilla. Jaiminho é da cidade de Tangamandapio e agora mora em Betim para ficar perto de sua filha,
 Maria Juaquina e seu Genro Cirilo. Para não ficar somente em casa vendo esportes na televisão, ele arrumou um emprego no prédio onde sua filha mora, onde conta com o serviço de portaria 24 horas por dia.
 Jaiminho geralmente trabalha no turno da manhã onde aproveita o menor fluxo de pessoas. A maior dificuldade dele está relacionada nas entregas das correspondências dos moradores, pois segundo ele, é
-preciso "evitar a fadiga". Jaiminho tenta ligar no interfone ou nos respectivos telefones para que os moradores possam buscar as correspondências, mas nem sempre consegue falar com eles, o que faz
+preciso “evitar a fadiga”. Jaiminho tenta ligar no interfone ou nos respectivos telefones para que os moradores possam buscar as correspondências, mas nem sempre consegue falar com eles, o que faz
 aumentar a fadiga de Jaiminho e deixar o serviço mais cedo e ir à casa de sua filha tomar um cafezinho.
 
 ## Histórias de Usuários
@@ -136,7 +136,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |1, 2                   | CRUD e atribuição (AT) de responsabilidades por residencial, condomínio ou apartamento.                                                                                         | Definir quem serão os responsáveis por cada categoria                                                      |
 |1, 2                   | CRUD de áreas comuns.                                                                                                                                                           | Para ser utilizado em cada residencial e/ou condomínio de acordo com a necessidade                         |
 
-<sup>1</sup>**Admiinistrador Master**: Perfis e personas 1, 2, 3 e 4; **Administrador**: Perfis e personas 3 e 4; **Usuário comum**: Ler e atualizar o próprio perfil
+<sup>1</sup>**Administrador Master**: Perfis e personas 1, 2, 3 e 4; **Administrador**: Perfis e personas 3 e 4; **Usuário comum**: Ler e atualizar o próprio perfil
 
 
 #### Módulo Financeiro
