@@ -75,15 +75,34 @@ A seguir temos as principais responsabilidades do projeto:
 
 ### Processo
 
-Coloque informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer 
-uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status 
-de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+A implementação do Scrum será feita através da utilização de ferramentas, principalmente de maneira 
+online, simplificando a gestão e dando maior transparência das atividades a serem executadas.
+
+#### Reuniões:
+> - `Daily Scum`: Reuniões diárias através do Microsoft Teams.
+> - `Sprint Review`: A cada entrega do sprint será feita uma apresentação para o Product Owner.
+> - `Retropesctiva da Sprint`: A cada entrega do sprint o time irá lentar os pontos que precisam ser 
+> melhorados e mantidos.
+
+#### Comunicados e discussões rápidas:
+> Grupo do projeto no WhatsApp.
+
+#### Versionamento do código
+> Será utilizado o Github para versionar os códigos desenvolvidos para o projeto.
+
+#### Documentação do projeto
+> Será utilizado o Github para documentar o projeto, bem como as funcionalidades.
+
+#### Gestão das atividades:
+> Através do Github na seção de Projetos, serão gerenciadas as atividades do projeto seguindo três 
+> níveis de categorias na ferramenta Kanban (template Kanban automatizado):
+> 1. `Sprints / Milestones`;
+> 2. `Divisões: Backlogs, To do, In progress e Done`; 
+> 3. `Issues: abertas e fechadas`. 
+>
+> Além disso, as prioridades do item dois (2) serão negociadas em conjunto com o Product Owner a cada 
+> revisão das Sprints e atribuída ao time de projeto de acordo com as necessidades de andamento e 
+> entregas do projeto.
 
 ### Ferramentas
 
