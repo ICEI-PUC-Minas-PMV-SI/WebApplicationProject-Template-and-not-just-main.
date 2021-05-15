@@ -47,16 +47,37 @@ etiquetas:
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+Com o intuito de gerar o maior nível de conhecimento possível em todas as entregas do projeto, a divisão 
+das atividades não serão de exclusividade da pessoa atribuída, mas da principalmente responsabilidade, 
+tendo em vista a colaboração de todos, seja na discussão, desenvolvimento e revisão.
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+**Tabela de descrição dos papeis:**
+
+| Id | Ação                 | Código |
+|----|----------------------|--------|
+| 1  | Product Owner        | (PO)   |
+| 2  | Scrum Master         | (SM)   |
+| 3  | Architect            | (AR)   |
+| 4  | Designer             | (DN)   |
+| 5  | Developer            | (DV)   |
+| 6  | Tester               | (TS)   |
+
+<br>
+A seguir temos as principais responsabilidades do projeto:
+
+| Id | Responsabilidades    | Responsável                        |
+|----|----------------------|------------------------------------|
+| 1  | `1`                  | Professor Fábio Martins de Oliveira|
+| 2  | `2` `3` `4` `5` `6`  | Gláucio Leonardo Sant'ana          |
+| 3  | `3` `4` `5` `6`      | Danilo Paris                       |
+| 4  | `3` `4` `5` `6`      | João Lucas                         |
+| 5  | `3` `4` `5` `6`      | Salomão Lobato                     |
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+Coloque informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer 
+uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status 
+de desenvolvimento da solução.
  
 > **Links Úteis**:
 > - [Project management, made simple](https://github.com/features/project-management/)
