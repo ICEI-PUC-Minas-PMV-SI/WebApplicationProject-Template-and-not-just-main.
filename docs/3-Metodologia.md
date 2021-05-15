@@ -1,9 +1,16 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+A metodologia a ser aplicada no projeto será a ágil, mais especificamente, o [Scrum](https://bit.ly/3eRhE6A), 
+uma vez que será demandada entregas frequentes, mantendo os processos mais simples e claros, mantendo os 
+registros visíveis na gestão dos [backlogs](https://bit.ly/3wmlwmn), flexibilizando os resultados, prazos, 
+possibilitando revisões constantes, além de ser viável para pequenas equipes.
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+O principalmente ambiente de trabalho da equipe será o [Github](https://bit.ly/3tN3YOl), onde será 
+incluída a [documentação do projeto](https://bit.ly/33N1a9m), [código fonte](https://bit.ly/3fiaibC), 
+[gestão das entregas](https://bit.ly/3wmlwmn) ([Sprints](https://bit.ly/33NIVRo) - Kanbans). Além do 
+Github, será utilizado o [Microsoft Teams](https://bit.ly/2RUGYzV) para os encontros recorrentes e o 
+grupo de WhatsApp para discussões e alinhamentos rápidos.
 
 ## Controle de Versão
 
