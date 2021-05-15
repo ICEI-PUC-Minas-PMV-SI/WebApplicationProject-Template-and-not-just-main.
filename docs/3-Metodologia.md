@@ -106,20 +106,34 @@ online, simplificando a gestão e dando maior transparência das atividades a se
 
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
+As ferramentas a serem utilizadas pelo time serão de livre escolha, com base na facilidade de uso,
+conhecimento do usuário, bem como o benefício / custo da utilização, tendo em vista a maior produtividade
+do time. Entretanto as ferramentas recomendadas são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de diagramação
+| Id | Categoria                 | Ferramenta                                                                                                                      |
+|----|---------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| 1  | Comunicação               | [Microsoft Teams](https://bit.ly/2RUGYzV), WhatsApp                                                                             |
+| 2  | Editor de código          | [Visual Studio Code](https://bit.ly/3fk8TB5), [WebStorm](https://bit.ly/3uLtQeR)                                                |
+| 3  | Compartilhamento arquivos | [OneDrive](https://bit.ly/3hqETWT), [Google Drive](https://bit.ly/33T2Qhv)                                                      |
+| 4  | Procedimentos e Diagramas | [Microsoft Visio](https://bit.ly/33Jwjum), [Bizagi](https://bit.ly/2RWMx0y), [Draw.io](https://bit.ly/3oiM9FT), [MySQL Workbench](https://bit.ly/3oicbZV)                  |
+| 5  | Prototipação              | [Adobe XD](https://adobe.ly/3btXCgA), [Adobe Illustrator](https://adobe.ly/3bwet2f), [Clip Studio Paint](https://bit.ly/3uSnzOC)|   
+| 6  | Gerenciamento do projeto  | [Github](https://bit.ly/3tN3YOl)                                                                                                |
+| 7  | Versionamento do projeto  | [Github](https://bit.ly/3tN3YOl)                                                                                                |
+| 8  | Documentação do projeto   | [Github](https://bit.ly/3tN3YOl)                                                                                                |
+| 9  | Design                    | Adobe Illustrator, [Adobe Photoshop](https://adobe.ly/3uWgbBK), [Adobe Premiere Pro](https://adobe.ly/3tNhJfX), [Adobe After Effects](https://adobe.ly/3uUIRuM), [Adobe Photoshop Lightroom](https://adobe.ly/3yaYX5E), [Adobe Audition](https://adobe.ly/3tQwRJA), [Microsoft PowerPoint](https://bit.ly/3bMo7hB)|
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+#### Motivo da escolha:
+- `1` => Teams: Ferramenta oficial de comunicação da Faculdade e simples de utilizar. WhatsApp, maior 
+  plataforma da comunicação Gloabl;
+- `2` => Visual Studio: Simples de utilizar, altamente customizável e gratuito. WebStorm igual ao Visual 
+  Studio, porém com diversas funcionalidades que aumentam a produtividade, porém não é gratuito;
+- `3` => Para compartilhamento de arquivos fora do contexto do Github ou arquivos grandes;
+- `4` => Visio e Bizagi: Ferramentas robustas para montar BPM (Business Process Management) / BPMN 
+  (Business Process Management Notation), Draw.io, ferramenta gratuita e Web;
+- `5` => Adobe XD, Adobe Illustrator: Prototipação de alto nível. Clip Studio Paint: Ferramenta 
+  profissional para desenho que será útil na prototipação de baixo nível;
+- `6` => Ferramenta bastante simples para gerenciamento de Kanbans a ser utilizado na metodologia Scrum;
+- `7` => Maior e uma das melhores plataformas do mundo para versionamento de códigos;
+- `8` => Melhor integração com o Github;
+- `9` => Integração completa com entre os produtos da adobe, além de possuir ferramentas de alta 
+  produtividade. PowerPoint: Ferramenta robusta e simples para criar apresentações do projeto.
