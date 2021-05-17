@@ -48,7 +48,7 @@ etiquetas:
 ### Divisão de Papéis
 
 Com o intuito de gerar o maior nível de conhecimento possível em todas as entregas do projeto, a divisão 
-das atividades não serão de exclusividade da pessoa atribuída, mas da principalmente responsabilidade, 
+das atividades não serão de exclusividade da pessoa atribuída, mas da responsabilidade, 
 tendo em vista a colaboração de todos, seja na discussão, desenvolvimento e revisão.
 
 **Tabela de descrição dos papeis:**
