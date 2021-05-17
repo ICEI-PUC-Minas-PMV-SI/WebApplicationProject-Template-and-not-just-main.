@@ -63,11 +63,10 @@ metodologia do projeto > [Ferramentas](https://bit.ly/2SZmd6z).
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+A hospedagem da aplicação foi definida para ser plataforma do [Heroku](https://bit.ly/33PBGs1), uma vez que irá nos possibilitar a utilização da
+[plataforma Cloud](https://bit.ly/33QxNDm) sem custos adicionais, permitindo uma análise de viabilidade
+de expansão de maneira simples e eficiente, ao passo que a plataforma possui os recursos necessários
+para o desenvolvimento de aplicações simples e complexas.
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+A solução Gestão de condomínios tem a previsão de utilização de diversas APIs, entretanto, nesta primeira
+fase do projeto, estará excluída ao passo que será preciso uma [MVP](https://bit.ly/2Rp1HMe)
