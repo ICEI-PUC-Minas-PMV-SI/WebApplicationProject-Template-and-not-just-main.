@@ -2,7 +2,34 @@
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+A arquitetura para a solução Gestão de condomínios será baseada na infraestrutura web, levando em 
+consideração o maior nível de segurança que a tecnologia atual poderá prover. Desde modo, nossa 
+aplicação será executada nos navegadores modernos, ou seja, com suporte nativo ao [Vanilla Ecma Script 
+6](https://bit.ly/2SNSUDM) ou superior (com isto não iremos dar suporte ao Internet Explorer, uma vez 
+que a desenvolvedora, Microsoft Corporation, [descontinuou](https://bit.ly/3eQMZqf) o produto, 
+consequentemente não provendo atualizações de segurança).
+
+Uma vez definida a infraestrutura principal (web), para que o sistema rode nativamente nos navegadores, 
+iremos utilizar o [HTML](https://bit.ly/3hyRA22) (HyperText Marckup Language) para mostrar o conteúdo ao
+usuário, [CSS](https://bit.ly/3wafl4y) (Cascading Style Sheet) para estilizar o conteúdo da página, 
+entretanto, faremos uso de um pré-compilador de CSS, o [SCSS](https://bit.ly/3tVMPC2) (Sassy Cascading 
+Style Sheet), que irá melhorar a performance no desenvolvimento e por fim o Vanilla Javascript (ES6+) 
+para adicionar maior dinamismo às ações do usuário.
+
+Neste primeiro momento iremos persistir os dados em arquivos no formato padrão 
+[JSON](https://bit.ly/2SSfqLP). A medida que o projeto for evoluindo, algumas alterações na 
+persistência poderá sofer alguma alteração para um SGBD (Sistema de Gerenciamento de Banco de Dados) 
+SQL (preferencialmente) ou NoSQL.
+
+E o principal recurso a ser utilizado será a hospedagem da aplicação, definida neste primeiro momento, na 
+plataforma do [Heroku](https://bit.ly/33PBGs1), uma vez que irá nos possibilitar a utilização da 
+[plataforma Cloud](https://bit.ly/33QxNDm) sem custos adicionais, permitindo uma análise de viabilidade 
+de expansão de maneira simples e eficiente, ao passo que a plataforma possui os recursos necessários 
+para o desenvolvimento de aplicações simples e complexas.
+
+A solução Gestão de condomínios tem a previsão de utilização de diversas APIs, entretanto, nesta primeira 
+fase do projeto, estará excluída ao passo que será preciso uma [MVP](https://bit.ly/2Rp1HMe) (Minimum 
+Viable Product - Produto Viável Mínimo em português)
 
 ## Diagrama de componentes
 
