@@ -104,7 +104,7 @@ online, simplificando a gestão e dando maior transparência das atividades a se
 > revisão das Sprints e atribuída ao time de projeto de acordo com as necessidades de andamento e 
 > entregas do projeto.
 
-### Ferramentas
+### <a href="#ferramentas" id="ferramentas">Ferramentas</a>
 
 As ferramentas a serem utilizadas pelo time serão de livre escolha, com base na facilidade de uso,
 conhecimento do usuário, bem como o benefício / custo da utilização, tendo em vista a maior produtividade
