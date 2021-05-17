@@ -8,6 +8,53 @@ necessário.
 
 ## User Flow
 
+A imagem a seguir ilustra o fluxo do usuário da nossa solução. Na tela 1.0 o usuário precisará efetuar 
+o login na aplicação e após será redirecionado para a página inicial (tela 2.0), Dashboard.
+
+### 2.0. Dashboard
+
+Como padrão, todas as telas terão o cabeçalho contendo ao lado esquerdo a lofo e o nome da página, 
+além de redirecionar para a página inicial ao clicar na logo. Ao lado direito temos o menu com as 
+principais ações do sistema sendo respectivamente:
+
+> - Acesso ao módulo financeiro;
+> - Acesso ao módulo de serviços;
+> - Alterar o tema padrão para o modo claro;
+> - Agendar/reservar área comum;
+> - Agendar um compromisso/assembléia;
+> - Central de notificações;
+> - Acesso á gestão do usuário atual;
+> - Acesso ao módulo de gestão do sistema,
+
+O dashboard será moldado de acordo com o tipo de usuário, ou seja, nem todas as opções do menu estarão 
+disponíveis a todos os usuários, bem como os cards no painel de comunicação. 
+
+que o usuário entra na plataforma, ele é apresentado à tela inicial
+(Tela 1) onde ele é confrontado com as opões de editar seu perfil ou
+então visualizar sua galeria.
+
+### 3.0. Configurações
+
+Neste módulo, apenas pessoas autorizadas terão acesso, entretanto, a opção no menu de ações ao lado 
+esquerdo o usuário comum irá acessar seu perfil ao invés de acessar a lista de usuários, ao passo que os
+administradores terão acesso irrestrito. 
+
+Neste módulo será possível gerenciar os usuários, criar tipos de permissões para perfis de usuários, 
+gerenciar residenciais, condomínios, apartamentos, áreas comuns e por ser uma parte crítica da aplicação,
+a opção financeira será definida de forma restrita. 
+
+### 4.0. Financeiro
+
+No módulo financeiro os usuários com suas respectivas permissões terão acesso à inclusão de despesas e 
+receitas provenientes ao condomínio, residencial, consolidar transações, seja de um ou mais condomínios, 
+gerar relatórios e também emitir boletos referentes ao apartamento.
+
+### 5.0. Serviços
+
+Por fim, no módulo de serviços, destinado principalmente para os gestores e funcionários, uma vez que 
+ambos poderão incluir solicitação de materiais, incluir pedidos de manutenção, aprovar as solicitações e
+incluir o cadastro de mercadorias recebidas pela portaria.
+
 ![Exemplo de UserFlow](img/interfaces/user-flow/user-flow.png)
 
 ## Wireframes
