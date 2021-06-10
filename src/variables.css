@@ -1,0 +1,11 @@
+* {
+    --primaryColor: #d20f20;
+    --hoverColor: #fafafa;
+    --errorColor: #ff4d4f;
+    --bodyBackground: #444;
+    --componentBackground:  #333;
+    --contrastBackground: #4d4d4d;
+    --textColor: #fff;
+    --borderColor: #d9d9d9;
+    --disabledColor: #888;
+}
