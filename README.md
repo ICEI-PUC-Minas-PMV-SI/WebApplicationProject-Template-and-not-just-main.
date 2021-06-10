@@ -16,7 +16,7 @@ Este projeto visa desenvolver uma solução Web com o objetivo macro de simplifi
 - Gláucio Leonardo Sant'ana
 - Danilo Paris
 - João Lucas
-- Salo Lobato
+- Salomão André Gomes Lobato
 
 ## Professor
 
