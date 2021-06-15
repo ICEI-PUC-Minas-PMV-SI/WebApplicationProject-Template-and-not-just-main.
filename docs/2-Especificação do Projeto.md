@@ -110,11 +110,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 #### Módulo de Gestão do Sistema
 |EU COMO... `PERSONA`   | QUERO/PRECISO ... `FUNCIONALIDADE`                                                                                                                                              | PARA ... `MOTIVO/VALOR`                                                                                    |                                                                              
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-|1, 2, 3                | CRUD de usuários.<sup>1</sup>                                                                                                                                                   | CRUD dos usuários bem como de seus atributos.                                                              | 
-|1, 2                   | CRUD de residenciais, condomínios ou apartamentos.                                                                                                                              | Ser utilizado no sistema de acordo com as necessidades de cada gestão                                      |
-|1, 2                   | CRUD e atribuição (AT) de responsabilidades por residencial, condomínio ou apartamento.                                                                                         | Definir quem serão os responsáveis por cada categoria                                                      |
-|1, 2                   | CRUD de áreas comuns.                                                                                                                                                           | Para ser utilizado em cada residencial e/ou condomínio de acordo com a necessidade                         |
-
+|1, 2, 3                | CRUD de usuários.<sup>1</sup>                                                                                                                                                 | CRUD dos usuários bem como de seus atributos.                                                              | 
+|1, 2                   | CRUD e atribuição (AT) de responsabilidades por residencial, condomínio ou apartamento.                                                                                       | Definir quem serão os responsáveis por cada categoria                                                      |                                                            
 <sup>1</sup>**Administrador Master**: Perfis e personas 1, 2, 3 e 4; **Administrador**: Perfis e personas 3 e 4; **Usuário comum**: Ler e atualizar o próprio perfil
 
 
@@ -127,14 +124,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |1, 2, 3                | Visualizar relatórios de despesas/receitas por residencial, condomínio ou apartamento.<sup>3</sup>                                                                              | Emitir relatórios financeiros para dar maior transparência aos condôminos.                                 |
 |1, 2, 3                | CRUD de multas aplicadas por residencial, condomínio ou apartamento.<sup>4</sup>                                                                                                | Lançar, contestar, cancelar e atualizar multas aplicadas pelos administradores.                            |
 |1, 2, 3                | CRUD de despesas/receitas de locações de áreas comuns por residencial, condomínio ou apartamento.<sup>5</sup>                                                                   | Despesas e receitas relacionadas aos aluguéis das áreas comuns.                                            |
-|1, 2, 3                | Emissão e disponibilizar (dashboard e/ou envio por e-mail) boleto (primeira e segunda via) para pagamento de condomínio por residencial, condomínio ou apartamento.<sup>6</sup> | Gerar (somente administradores) e emitir boletos referente ao apartamento.                                 |
 
 <sup>2</sup>**Usuário comum**: CRUD de despesas/receitas do apartamento.<br>
 <sup>3</sup>**Usuário comum**: Visualizar relatórios de despesas/receitas do apartamento.<br>
 <sup>4</sup>**Usuário comum**: RU (atualizar/contestar/incluir recibo) de multas aplicadas do apartamento.<br>
 <sup>5</sup>**Usuário comum**: R de despesas/receitas de locações de áreas comuns do apartamento.<br>
-<sup>6</sup>**Usuário comum**: Emissão ou envio por e-mail de boleto (primeira e segunda via) para pagamento de condomínio do apartamento.<br>
-
 
 #### Módulo de Serviços
 |EU COMO... `PERSONA`   | QUERO/PRECISO ... `FUNCIONALIDADE`                                                                                                                                              | PARA ... `MOTIVO/VALOR`                                                                                    |                                                                              
@@ -172,7 +166,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |ID     | Descrição do Requisito                                                                                                                                              | Prioridade |
 |-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel.                                                                                                  | 2          | 
-|RNF-002| Possibilidade de alterar o tema de modo escuro (dark mode) para o modo claro (light mode).
 
 
 ## Requisitos
@@ -205,7 +198,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-008| Visualizar relatórios de despesas/receitas por residencial, condomínio ou apartamento.                                                                               | 2          |
 |RF-009| CRUD de multas aplicadas por residencial, condomínio ou apartamento.                                                                                                 | 2          |
 |RF-010| CRUD de despesas/receitas de locações de áreas comuns por residencial, condomínio ou apartamento.                                                                    | 2          |
-|RF-011| Emissão e disponibilizar (dashboard e/ou envio por e-mail) boleto (primeira e segunda via) para pagamento de condomínio por residencial, condomínio ou apartamento.  | 3          |
 
 #### Módulo de Serviços
 |ID    | Descrição do Requisito                                                                                                                                               | Prioridade |
@@ -233,7 +225,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito                                                                                                                                              | Prioridade |
 |-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel.                                                                                                  | 2          | 
-|RNF-002| Possibilidade de alterar o tema de modo escuro (dark mode) para o modo claro (light mode).                                                                          | 3          | 
 
 
 ## Restrições
@@ -243,4 +234,3 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 | ID | Restrição                                             |
 |----|-------------------------------------------------------|
 |01  | O projeto deverá ser entregue até o final do semestre |
-|02  | Não pode ser desenvolvido um módulo de backend        |
