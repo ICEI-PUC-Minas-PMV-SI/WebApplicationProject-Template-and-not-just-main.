@@ -7,11 +7,11 @@ function login (username, password) {
 
     for (var i = 0; i < accounts.length; i++) {
         var account = accounts[i];
-        
+
         const currentAccount = {};
 
         if (username == account.username && password == account.password) {
-            
+           
             currentAccount.id = account.id;
             currentAccount.username = account.username;
             currentAccount.email = account.email;

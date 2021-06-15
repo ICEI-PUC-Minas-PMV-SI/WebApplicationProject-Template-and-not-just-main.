@@ -173,3 +173,9 @@ img {
   background-color: var(--textColor);
   color: var(--bodyBackground);
 }
+
+.icon {
+    color: var(--textColor);
+    height: 20px;
+    width: 20px;
+}
