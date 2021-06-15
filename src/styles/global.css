@@ -96,7 +96,7 @@ img {
 }
 
 .menu .link {
-  color: #f2f2f2;
+  color: var(--textColor);
   text-align: center;
   padding: 5px 15px;
   text-decoration: none;
@@ -108,9 +108,30 @@ img {
   padding: 20px 10px;
 }
 
+.topnav-title {
+  float: left;
+}
+
+.topnav-title span {
+  color: var(--textColor);
+  text-align: center;
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 32px;
+}
+
 .topnav .link:hover {
   background-color: var(--hoverColor);
   color: var(--bodyBackground);
+}
+
+.topnav-title {
+  color: var(--textColor);
+  text-align: center;
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
 .logo {
@@ -138,3 +159,17 @@ img {
 }
 
 
+.nav-link {
+  background-color: var(--componentBackground);
+  color: var(--textColor);
+}
+
+.nav-link:hover {
+  background-color: var(--textColor);
+  color: var(--bodyBackground);
+}
+
+.nav-link:active {
+  background-color: var(--textColor);
+  color: var(--bodyBackground);
+}
