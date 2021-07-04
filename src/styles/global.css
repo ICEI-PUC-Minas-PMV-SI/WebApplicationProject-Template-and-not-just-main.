@@ -1,7 +1,7 @@
 @import 'variables.css';
 
 * {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 html {
@@ -132,6 +132,11 @@ img {
   color: var(--bodyBackground);
 }
 
+.topnav .link.active {
+  background-color: var(--hoverColor);
+  color: var(--bodyBackground);
+}
+
 .topnav-title {
   color: var(--textColor);
   text-align: center;
@@ -175,7 +180,29 @@ img {
   color: var(--bodyBackground);
 }
 
-.nav-link:active {
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   background-color: var(--textColor);
   color: var(--bodyBackground);
+}
+
+.nav-item {
+  background-color: var(--bodyBackground);
+  color: var(--textColor);
+}
+
+.tab-content .tab-content-container {
+  margin-top: 40px;
+}
+
+.nav-pills span {
+  margin-right: 10px; 
+  font-size: 24px;
+}
+.tab-content {
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+.table-button span {
+  font-size: 16px;
 }
