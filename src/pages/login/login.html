@@ -11,50 +11,52 @@
     <title>Login - Ed. Hector Bonilla</title>
 </head>
 <body>
-    <div class="layout">
-        <main class="main-container">
-            <img class="mb-4 login-logo" src="../../assets/logo.svg" alt="" width="200" height="200">
-            <div class="form-container">
-            <form id="login-form" method="post" onsubmit="login(this)">
-              <div class="form-floating">
-                <input type="text" class="form-control" id="username" placeholder="Usuário">
-                <label for="username">Nome de Usuário</label>
-              </div>
-              <div class="form-floating">
-                <input type="password" class="form-control" id="password" placeholder="Senha">
-                <label for="password">Senha</label>
-              </div>          
-              <div class="checkbox mb-3">
-                <label>
-                  <input type="checkbox" value="remember-me"> Continuar conectado
-                </label>
-              </div>
-              <button class="w-100 btn btn-lg btn-primary" type="submit">Entrar</button>
-            </form>
-        </div>
-          </main>
-        <div class="footer">Puc Minas - Gestão de Condomínios - Ed. Hector Bonilla</div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="login.js"></script>
-    <script>
-        function handleLogin (event) {                
-                event.preventDefault();
+  <div class="layout">
+      <main class="main-container">
+          <img class="mb-4 login-logo" src="../../assets/logo.svg" alt="" width="200" height="200">
+          <div class="form-container">
+          <form id="login-form" method="post" onsubmit="login(this)">
+            <div class="form-floating">
+              <input type="email" class="form-control" id="email" placeholder="E-mail">
+              <label for="email">E-Mail</label>
+            </div>
+            <div class="form-floating">
+              <input type="password" class="form-control" id="password" placeholder="Senha">
+              <label for="password">Senha</label>
+            </div>          
+            <div class="checkbox mb-3">
+              <label>
+                <input type="checkbox" value="remember-me"> Continuar conectado
+              </label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Entrar</button>
+          </form>
+      </div>
+        </main>
+      <div class="footer">Puc Minas - Gestão de Condomínios - Ed. Hector Bonilla</div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="login.js"></script>
+  <script>
+      function handleLogin (event) {                
+        event.preventDefault();
 
-                var username = document.getElementById('username').value;
-                var password = document.getElementById('password').value;
+        const email = document.getElementById('email').value;
+        const password = document.getElementById('password').value;
 
-                result = login(username, password);
+        const args = {email, password}
 
-                if (result) {
-                    window.location.href = '../index.html';
-                }
-                else {
-                    alert('Usuário ou senha inválidos!');
-                }
+        result = login(args);
+
+        if(result) {
+            window.location.href = '../index.html';
         }
-        document.getElementById ('login-form').addEventListener ('submit', handleLogin);        
-    </script>
+        else {
+            alert('Usuário e/ou senha inválidos!');
+        }
+      }
+      document.getElementById('login-form').addEventListener('submit', handleLogin);        
+  </script>
 </body>
 </html>
