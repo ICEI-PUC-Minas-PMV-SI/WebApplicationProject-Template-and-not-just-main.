@@ -127,6 +127,11 @@ img {
   font-family: 'Dancing Script', cursive;
 }
 
+h2 {
+  font-size: 48px;
+  font-family: 'Dancing Script', cursive;
+}
+
 .topnav .link:hover {
   background-color: var(--hoverColor);
   color: var(--bodyBackground);
@@ -173,11 +178,17 @@ img {
 .nav-link {
   background-color: var(--componentBackground);
   color: var(--textColor);
+  text-align: left;
 }
 
 .nav-link:hover {
   background-color: var(--textColor);
   color: var(--bodyBackground);
+}
+
+.nav-pills span {
+  margin-right: 10px; 
+  font-size: 24px;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -194,10 +205,6 @@ img {
   margin-top: 40px;
 }
 
-.nav-pills span {
-  margin-right: 10px; 
-  font-size: 24px;
-}
 .tab-content {
   margin-top: 40px;
   margin-left: 100px;
@@ -206,3 +213,8 @@ img {
 .table-button span {
   font-size: 16px;
 }
+
+.modal-content {
+  background: var(--bodyBackground);
+  color: var(--textColor);
+} 

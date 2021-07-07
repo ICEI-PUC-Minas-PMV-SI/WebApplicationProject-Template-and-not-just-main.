@@ -1,24 +1,15 @@
-async function showAccounts() {
-  // Remove todas as linhas do corpo da tabela
-  document.getElementById("table-accounts").innerHTML = "";
+function initSettings() {
+  //   var triggerTabList = [].slice.call(document.querySelectorAll('settingsTabContent'))
+  //   triggerTabList.forEach(function (triggerEl) {
+  //   var tabTrigger = new bootstrap.Tab(triggerEl)
 
-  axios.get('http://localhost:3000/accounts').then(res => {
-    const accounts = res.data;
-    // Popula a tabela com os registros do banco de dados
-    for (i = 0; i < accounts.length; i++) {
-      const account = accounts[i];    
-      document.getElementById("table-accounts").insertAdjacentHTML("beforeend",`
-      <tr>
-        <td scope="row" style="display: none;">${account._id}</td>
-        <td>${account.name}</td>
-        <td>${account.email}</td>
-        <td>${account.phone}</td>
-        <td>${account.apartment}</td>
-        <td>${account.role}</td>
-        <td>${account.category}</td>        
-      </tr>`);
-    }
-  }).catch(err => {
-    console.log(err)
-  })
+  //   triggerEl.addEventListener('click', function (event) {
+  //     event.preventDefault()
+  //     tabTrigger.show()
+  //   })
+  // })
+
+  const current = localStorage.getItem('current')
+  //remover elementos que aparecem na tela baseado no perfil
 }
+
