@@ -12,7 +12,7 @@
         <script defer src="../../assets/fontawesome/js/all.js"></script>
         <title>Ed. Hector Bonilla</title>
     </head>
-    <body>
+    <body onload="initAccount()">
         <header class="topnav">
             <a href="../index.html">
                 <img src="../../assets/logo.svg" class="logo" alt="logo">
@@ -23,191 +23,88 @@
               <a href="../services/services.html" class="link" title="Serviços"><span><i class="fas fa-wrench"></span></i></a>
               <a href="../financial/financial.html" class="link" title="Financeiro"><span><i class="fas fa-dollar-sign"></span></i></a>
               <a href="../settings/settings.html" class="link" title="Configurações"><span><i class="fas fa-cog"></span></i></a>
+              <a href="../login/login.html" class="link" style="margin-left: 20px;" onclick="logout()"><span><i class="fas fa-sign-out-alt"></span></i></a>
             </div>
         </header>
         <div class="layout">
-            <main class="main-container">
-              <div class="d-flex align-items-start">
-                <div class="nav flex-column nav-pills me-3" id="settingsTab" role="tablist" aria-orientation="vertical">
-                  <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true"><span><i class="fas fa-home"></i></span>Início</button>
-                  <button class="nav-link" id="v-pills-assemblies-tab" data-bs-toggle="pill" data-bs-target="#v-pills-assemblies" type="button" role="tab" aria-controls="v-pills-assemblies" aria-selected="false" onclick="initAssemblies(this)"><span><i class="fas fa-book-open"></i></span>Assembléias</button>
-                  <button class="nav-link" id="v-pills-accounts-tab" data-bs-toggle="pill" data-bs-target="#v-pills-accounts" type="button" role="tab" aria-controls="v-pills-accounts" aria-selected="false" onclick="initAccounts(this)"><span><i class="fas fa-user"></i></span>Usuários</button>
-                  <button class="nav-link" id="v-pills-spaces-tab" data-bs-toggle="pill" data-bs-target="#v-pills-spaces" type="button" role="tab" aria-controls="v-pills-spaces" aria-selected="false"><span><i class="fas fa-futbol"></i></span>Áreas Comuns</button>
-                </div>
-                <div class="tab-content" id="settingsTabContent">
-                  <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                    <h2>Página Inicial - Configurações</h2>
-                    <p>Gerenciamento dos usuários do sistema, dos espaços comuns e das assembléias</p>
-                  </div>
-                  <div class="tab-pane fade" id="v-pills-assemblies" role="tabpanel" aria-labelledby="v-pills-assemblies-tab">
-                    <h2>Assembléias - Configurações</h2>
-                    <p>Gerenciamento das assembléias</p>
-                    <table id="assemblies" class="table table-dark table-hover table-bordered">
-                      <thead>
-                          <tr>
-                              <th scope="col">Nome</th>
-                              <th scope="col">Assunto</th>
-                              <th scope="col">Observações</th>
-                              <th scope="col">Prioridade</th>
-                              <th scope="col">Data</th>
-                              <th scope="col">Criada Por</th>
-                          </tr>
-                      </thead>
-                      <tbody id="tableAssemblies">                 
-                      </tbody>                   
-                    </table>
-                    <button type="button" class="btn btn-primary" onclick="handleInsertAssembly()">Nova Assembléia</button>
-                    <div class="modal" tabindex="-1" id="assemblyModal">
-                      <div class="modal-dialog modal-lg modal-dialog-centered">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title">Formulário de Assembléia</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                          </div>
-                          <div class="modal-body">
-                            <form id="assemblyForm">
-                              <div class="form-group row">
-                                  <label for="inputId" style="display:none;">Id</label>
-                                  <input type="text" class="form-control" id="inputId" placeholder="ID" style="display:none;" disabled>
-                                  <div class="col-sm-7">
-                                    <label for="inputName">Nome*</label>
-                                    <input type="text" class="form-control" id="inputName" required placeholder="Nome">
-                                  </div>
-                                  <div class="col-sm-5">
-                                    <label for="inputSubject">Assunto*</label>
-                                    <input type="text" class="form-control" id="inputSubject" placeholder="Assunto" >
-                                  </div>
-                              </div>
-                              <div class="form-group row">
-                                <div class="col-sm-12">
-                                    <label for="inputObs">Observações*</label>
-                                    <input type="text" class="form-control" id="inputObs" required placeholder="Observações">
-                                </div>                                    
-                              </div>
-                              <div class="form-group row">
-                                <div class="col-sm-6">
-                                  <label for="inputDate">Data*</label>
-                                  <input type="email" class="form-control" id="inputDate" required placeholder="Data">
-                                </div>                                                                                                                
-                                <div class="col-sm-6">
-                                  <label for="inputCategoria">Prioridade*</label>
-                                  <select class="form-select" id="selectPriority" required aria-placeholder="Prioridade"></select>
-                                </div>
-                              </div>
-                              <div class="form-group row">                                                                                                                                         
-                                <div class="col-sm-6">
-                                  <label for="inputCreatedBy">Criada Por</label>
-                                  <select class="form-select" id="inputCreatedBy" required aria-placeholder="Criada Por" disabled></select>
-                                </div>
-                              </div>
-                              <div class="form-group row">
-                                  <div class="col-sm-4">
-                                    <small>* Campos obrigatórios</small>
-                                  </div>
-                              </div>                                                                                          
-                            </form>
-                          </div>
-                          <div class="modal-footer">
-                            <div class="form-group row">
-                              <div class="col-sm-12">
-                                <button class="btn btn-success" id="btnConfirm" onclick="handleSubmitAssembly()">Confirmar</button>
-                                <button class="btn btn-danger" id="btnDelete">Excluir</button>
-                                <button class="btn btn-secondary" data-bs-dismiss="modal" value="Cancelar">Cancelar</button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+          <main class="main-container">
+            <div class="d-flex align-items-start">
+              <div class="nav flex-column nav-pills me-3" id="settingsTab" role="tablist" aria-orientation="vertical">
+                <button class="nav-link  active" id="v-pills-account-tab" data-bs-toggle="pill" data-bs-target="#v-pills-account" type="button" role="tab" aria-controls="v-pills-account" aria-selected="false" onclick=""><span><i class="fas fa-user"></i></span>Alterar Informações Pessoais</button>
+                <button class="nav-link" id="v-pills-password-tab" data-bs-toggle="pill" data-bs-target="#v-pills-password" type="button" role="tab" aria-controls="v-pills-password" aria-selected="true"><span><i class="fas fa-key"></i></span>Alterar Senha</button>
+              </div>
+              <div class="tab-content" id="settingsTabContent">
+                <div class="tab-pane fade show active" id="v-pills-account" role="tabpanel" aria-labelledby="v-pills-account-tab">
+                  <h2>Configurações do Usuário</h2>
+                  <p>Atualizar informações de cadastro</p>           
+                  <form id="accountForm">
+                    <div class="form-group row">                      
+                      <div class="col-sm-6">
+                          <label for="inputName">Nome*</label>
+                          <input type="text" class="form-control" id="inputName" required placeholder="Nome">
+                      </div>
+                      <div class="col-sm-6">
+                          <label for="inputApartment">Apartamento</label>
+                          <input type="text" class="form-control" id="inputApartment" disabled placeholder="Apartamento (se aplicável)" >
                       </div>
                     </div>
-                  </div>
-                  <div class="tab-pane fade" id="v-pills-accounts" role="tabpanel" aria-labelledby="v-pills-accounts-tab">
-                    <h2>Usuários - Configurações</h2>
-                    <p>Gerenciamento dos usuários cadastrados no sistema</p>
-                    <table id="accounts" class="table table-dark table-hover table-bordered">
-                      <thead>
-                          <tr>
-                              <th scope="col">Nome</th>
-                              <th scope="col">E-mail</th>
-                              <th scope="col">Telefone</th>
-                              <th scope="col">Apartamento</th>
-                              <th scope="col">Perfil</th>
-                              <th scope="col">Categoria</th>
-                          </tr>
-                      </thead>
-                      <tbody id="tableAccounts">                 
-                      </tbody>                   
-                    </table>
-                  <button type="button" class="btn btn-primary" onclick="handleInsertAccount()">Novo Usuário</button>
-                  <div class="modal" tabindex="-1" id="accountModal">
-                      <div class="modal-dialog modal-lg modal-dialog-centered">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title">Formulário de Usuário</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                          </div>
-                          <div class="modal-body">
-                            <form id="accountForm">
-                              <div class="form-group row">
-                                <label for="inputId" style="display:none;">Id</label>
-                                <input type="text" class="form-control" id="inputId" placeholder="ID" style="display:none;" disabled>
-                                <div class="col-sm-7">
-                                    <label for="inputName">Nome*</label>
-                                    <input type="text" class="form-control" id="inputName" required placeholder="Nome">
-                                </div>
-                                <div class="col-sm-5">
-                                    <label for="inputApartment">Apartamento</label>
-                                    <input type="text" class="form-control" id="inputApartment" placeholder="Apartamento (se aplicável)" >
-                                </div>
-                              </div>
-                              <div class="form-group row">
-                                <div class="col-sm-7">
-                                    <label for="inputEmail">E-mail*</label>
-                                    <input type="email" class="form-control" id="inputEmail" required placeholder="E-mail">
-                                </div>
-                                <div class="col-sm-5">
-                                    <label for="inputPhone">Telefone*</label>
-                                    <input type="text" class="form-control" id="inputPhone" required placeholder="Telefone">
-                                </div>                                    
-                              </div>
-                              <div class="form-group row">                                                                        
-                                <div class="col-sm-6">
-                                    <label for="selectRole">Perfil*</label>
-                                    <select class="form-select" id="selectRole" required aria-placeholder="Perfil"></select>
-                                </div>
-                                <div class="col-sm-6">
-                                    <label for="selectCategory">Categoria*</label>
-                                    <select class="form-select" id="selectCategory" required aria-placeholder="Categoria"></select>
-                                </div>
-                              </div>
-                              <div class="form-group row">
-                                  <div class="col-sm-4">
-                                      <small>* Campos obrigatórios</small>
-                                  </div>
-                              </div>                                
-                            </form>
-                          </div>
-                          <div class="modal-footer">
-                            <div class="form-group row">
-                                <div class="col-sm-12">
-                                    <button class="btn btn-success" id="btnConfirm" onclick="handleSubmitAccount()">Confirmar</button>
-                                    <button class="btn btn-danger" id="btnDelete">Excluir</button>
-                                    <button class="btn btn-secondary" data-bs-dismiss="modal" value="Cancelar">Cancelar</button>
-                                </div>
-                            </div>                        
-                          </div>
-                        </div>
+                    <div class="form-group row">
+                      <div class="col-sm-6">
+                          <label for="inputEmail">E-mail*</label>
+                          <input type="email" class="form-control" id="inputEmail" required placeholder="E-mail">
                       </div>
+                      <div class="col-sm-6">
+                          <label for="inputPhone">Telefone*</label>
+                          <input type="text" class="form-control" id="inputPhone" onkeypress="mask(this, phoneMask)" maxlength="15" required placeholder="Telefone">
+                      </div>                                    
                     </div>
-                  </div>
-                  <div class="tab-pane fade" id="v-pills-spaces" role="tabpanel" aria-labelledby="v-pills-spaces-tab">
-                      <h2>Espaços Comuns - Configurações</h2>
-                    <p>Gerenciamento dos espaços comuns cadastrados no sistema</p>
-                  </div>
+                    <div class="form-group row">                                                                        
+                      <div class="col-sm-6">
+                          <label for="selectRole">Perfil*</label>
+                          <select class="form-select" id="selectRole" required disabled aria-placeholder="Perfil"></select>
+                      </div>
+                      <div class="col-sm-6">
+                          <label for="selectCategory">Categoria*</label>
+                          <select class="form-select" id="selectCategory" required disabled aria-placeholder="Categoria"></select>
+                      </div>
+                    </div>                   
+                  </form>                                       
+                  <button class="btn btn-success" style="margin-top: 20px; float: right;" onclick="updatePersonalInfo()">Confirmar</button>                                               
                 </div>
-              </div>                      
-            </main>
-            <div class="footer">Puc Minas - Gestão de Condomínios - Ed. Hector Bonilla</div>
-        </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+                <div class="tab-pane fade" id="v-pills-password" role="tabpanel" aria-labelledby="v-pills-password-tab">
+                  <h2>Configurações do Usuário</h2>
+                  <p>Alterar senha</p>           
+                  <form id="passwordForm">
+                    <div class="form-group row">                      
+                      <div class="col-sm-12">
+                          <label for="inputCurrentPassword">Senha Atual*</label>
+                          <input type="password" class="form-control" id="inputCurrentPassword" required placeholder="Senha Atual">
+                      </div>                      
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-sm-12">
+                        <label for="inputNewPassword">Nova Senha*</label>
+                        <input type="password" class="form-control" id="inputNewPassword" required placeholder="Nova Senha" >
+                      </div>                                                     
+                    </div>
+                    <div class="form-group row">                                                                        
+                      <div class="col-sm-12">
+                        <label for="inputConfirmPassword">Confirmar Nova Senha*</label>
+                        <input type="password" class="form-control" id="inputConfirmPassword" required placeholder="Confimar Nova Senha">
+                      </div>
+                    </div>                   
+                  </form>  
+                  <button class="btn btn-success" style="margin-top: 20px; float: right;" onclick="updatePassword()">Confirmar</button>                                               
+                </div>                
+              </div>
+            </div>            
+          </main>
+          <div class="footer">Gestão de Condomínios - Ed. Hector Bonilla</div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <script src="../../helpers/logout.js"></script>
+      <script src="../../helpers/masks.js"></script>
+      <script src="account.js"></script>
     </body>
 </html>
