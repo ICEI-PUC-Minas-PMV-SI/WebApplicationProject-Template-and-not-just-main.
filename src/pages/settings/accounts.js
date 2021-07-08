@@ -1,4 +1,4 @@
-const api = 'http://localhost:3000';
+const api = 'https://server-puc-condominio.herokuapp.com';
 
 async function initAccounts() {
     //Encontra a tabela

@@ -1,5 +1,7 @@
+const api = 'https://server-puc-condominio.herokuapp.com';
+
 async function login(args) {
-  axios.post('http://localhost:3000/auth', args).then(res => {
+  axios.post(`${api}/auth`, args).then(res => {
     //Persiste os dados do usuário no LocalStorage
     localStorage.setItem('account', JSON.stringify(res.data));
 
