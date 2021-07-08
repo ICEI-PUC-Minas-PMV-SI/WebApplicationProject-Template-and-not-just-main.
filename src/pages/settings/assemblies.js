@@ -22,7 +22,7 @@ async function initAssemblies() {
   //Popula a select de perfis com os perfis disponíveis
   for (i = 0; i < priorities.length; i++) {
     const priority = priorities[i];    
-    document.getElementById("selectPriority").insertAdjacentHTML("beforeend",`
+    document.getElementById("assemblyPriority").insertAdjacentHTML("beforeend",`
     <option value="${priority}">${priority}</option>`);
   }
 
@@ -65,6 +65,26 @@ async function initAssemblies() {
     },
   ];
 
+  // axios.get('http://localhost:3000/assemblies').then(res => {
+  //   const assemblies = res.data;
+  //   // Popula a tabela com os registros do banco de dados
+  //   for (i = 0; i < assemblies.length; i++) {
+  //     const assembly = assemblies[i];    
+  //     document.getElementById("table-assemblies").insertAdjacentHTML("beforeend",`
+  //     <tr>
+  //       <td scope="row" style="display: none;">${assembly._id}</td>
+  //       <td>${assembly.name}</td>
+  //       <td>${assembly.subject}</td>
+  //       <td>${assembly.obs}</td>
+  //       <td>${assembly.date}</td>
+  //       <td>${assembly.priority}</td>
+  //       <td>${assembly.createdBy}</td>        
+  //     </tr>`);
+  //   }
+  // }).catch(err => {
+  //   console.log(err)
+  // })
+
   // Popula a tabela com os registros do banco de dados
   for (i = 0; i < assemblies.length; i++) {
     const assembly = assemblies[i];    
@@ -102,13 +122,13 @@ async function initAssemblies() {
 
     
     //Encontra os inputs do formulário
-    const _id = document.getElementById('inputId')
-    const name = document.getElementById('inputName')
+    const _id = document.getElementById('assemblyId')
+    const name = document.getElementById('assemblyName')
     const subject = document.getElementById('inpuSubject')
-    const obs = document.getElementById('inputObs')
-    const date = document.getElementById('inputDate')
-    const priority = document.getElementById('selectPriority')
-    const createdBy = document.getElementById('inputCreatedBy')
+    const obs = document.getElementById('assemblyObs')
+    const date = document.getElementById('assemblyDate')
+    const priority = document.getElementById('assemblyPriority')
+    const createdBy = document.getElementById('assemblyCreatedBy')
 
     //Preenche os inputs com os dados da tabela
     _id.value = assembly._id
@@ -122,27 +142,6 @@ async function initAssemblies() {
     //Abre o Modal com os valores carregados
     assemblyModal.show()
   }
-
-
-  // axios.get('http://localhost:3000/assemblies').then(res => {
-  //   const assemblies = res.data;
-  //   // Popula a tabela com os registros do banco de dados
-  //   for (i = 0; i < assemblies.length; i++) {
-  //     const assembly = assemblies[i];    
-  //     document.getElementById("table-assemblies").insertAdjacentHTML("beforeend",`
-  //     <tr>
-  //       <td scope="row" style="display: none;">${assembly._id}</td>
-  //       <td>${assembly.name}</td>
-  //       <td>${assembly.subject}</td>
-  //       <td>${assembly.obs}</td>
-  //       <td>${assembly.date}</td>
-  //       <td>${assembly.priority}</td>
-  //       <td>${assembly.createdBy}</td>        
-  //     </tr>`);
-  //   }
-  // }).catch(err => {
-  //   console.log(err)
-  // })
 }
 
 function handleInsertAssembly() {
@@ -158,13 +157,13 @@ function handleInsertAssembly() {
 
 function handleSubmitAssembly() {
   //Encontra os inputs do formulário
-  const _id = document.getElementById('inputId')
-  const name = document.getElementById('inputName')
-  const subject = document.getElementById('inpuSubject')
-  const obs = document.getElementById('inputObs')
-  const date = document.getElementById('inputDate')
-  const priority = document.getElementById('selectPriority')
-  const createdBy = document.getElementById('inputCreatedBy')
+  const _id = document.getElementById('assemblyId')
+  const name = document.getElementById('assemblyName')
+  const subject = document.getElementById('assemblySubject')
+  const obs = document.getElementById('assemblyObs')
+  const date = document.getElementById('assemblyDate')
+  const priority = document.getElementById('assemblyPriority')
+  const createdBy = document.getElementById('assemblyCreatedBy')
 
   //Verifica se existe o id e cadastra/altera dependendo do resultado
   if(!_id.value) {
@@ -178,6 +177,6 @@ function handleSubmitAssembly() {
 
 
 function handleDeleteAssembly() {
-  const _id = document.getElementById('inputId')
+  const _id = document.getElementById('assemblyId')
 
 }
