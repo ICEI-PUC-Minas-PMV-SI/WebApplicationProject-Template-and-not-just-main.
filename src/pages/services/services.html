@@ -31,23 +31,23 @@
             <div class="d-flex align-items-start">
               <div class="nav flex-column nav-pills me-3" id="settingsTab" role="tablist" aria-orientation="vertical">
                 <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true"><span><i class="fas fa-home"></i></span>Início</button>
-                <button class="nav-link" id="v-pills-assemblies-tab" data-bs-toggle="pill" data-bs-target="#v-pills-assemblies" type="button" role="tab" aria-controls="v-pills-assemblies" aria-selected="false" onclick="initAssemblies(this)"><span><i class="fas fa-book-open"></i></span>Assembléias</button>
-                <button class="nav-link" id="v-pills-accounts-tab" data-bs-toggle="pill" data-bs-target="#v-pills-accounts" type="button" role="tab" aria-controls="v-pills-accounts" aria-selected="false" onclick="initAccounts(this)"><span><i class="fas fa-user"></i></span>Usuários</button>
-                <button class="nav-link" id="v-pills-spaces-tab" data-bs-toggle="pill" data-bs-target="#v-pills-spaces" type="button" role="tab" aria-controls="v-pills-spaces" aria-selected="false"><span><i class="fas fa-futbol"></i></span>Áreas Comuns</button>
+                <button class="nav-link" id="v-pills-assemblies-tab" data-bs-toggle="pill" data-bs-target="#v-pills-assemblies" type="button" role="tab" aria-controls="v-pills-assemblies" aria-selected="false" onclick="initAssemblies(this)"><span><i class="fas fa-boxes"></i></span>Solicitar Materiais</button>
+                <button class="nav-link" id="v-pills-accounts-tab" data-bs-toggle="pill" data-bs-target="#v-pills-accounts" type="button" role="tab" aria-controls="v-pills-accounts" aria-selected="false" onclick="initAccounts(this)"><span><i class="fas fa-screwdriver"></i></span>Solicitar Manutenção</button>
+                <button class="nav-link" id="v-pills-spaces-tab" data-bs-toggle="pill" data-bs-target="#v-pills-spaces" type="button" role="tab" aria-controls="v-pills-spaces" aria-selected="false"><span><i class="fas fa-shopping-cart"></i></span>Mercadorias</button>
               </div>
               <div class="tab-content" id="settingsTabContent">
                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                  <h2>Página Inicial - Configurações</h2>
-                  <p>Gerenciamento dos usuários do sistema, dos espaços comuns e das assembléias</p>
+                  <h2>Página Inicial - Serviços</h2>
+                  <p>Gerenciamento dos materiais e serviços de manutenção do condomínio</p>
                 </div>
                 <div class="tab-pane fade" id="v-pills-assemblies" role="tabpanel" aria-labelledby="v-pills-assemblies-tab">
-                  <h2>Assembléias - Configurações</h2>
-                  <p>Gerenciamento das assembléias</p>
+                  <h2>Solicitar Materiais - Serviços</h2>
+                  <p>Solicitações de materiais necessários para manutenção do condomínio</p>
                   <table id="assemblies" class="table table-dark table-hover table-bordered">
                     <thead>
                         <tr>
-                            <th scope="col">Nome</th>
-                            <th scope="col">Assunto</th>
+                            <th scope="col">Material</th>
+                            <th scope="col">Utilidade</th>
                             <th scope="col">Observações</th>
                             <th scope="col">Prioridade</th>
                             <th scope="col">Data</th>
@@ -57,7 +57,7 @@
                     <tbody id="tableAssemblies">                 
                     </tbody>                   
                   </table>
-                  <button type="button" class="btn btn-primary" onclick="handleInsertAssembly()">Nova Assembléia</button>
+                  <button type="button" class="btn btn-primary" onclick="handleInsertAssembly()">Novo Material</button>
                   <div class="modal" tabindex="-1" id="assemblyModal">
                     <div class="modal-dialog modal-lg modal-dialog-centered">
                       <div class="modal-content">
@@ -122,8 +122,8 @@
                   </div>
                 </div>
                 <div class="tab-pane fade" id="v-pills-accounts" role="tabpanel" aria-labelledby="v-pills-accounts-tab">
-                  <h2>Usuários - Configurações</h2>
-                  <p>Gerenciamento dos usuários cadastrados no sistema</p>
+                  <h2>Solicitar Manutenção - Serviços</h2>
+                  <p>Solicitações de serviços de manutenção para o condomínio</p>
                   <table id="accounts" class="table table-dark table-hover table-bordered">
                     <thead>
                         <tr>
@@ -138,7 +138,7 @@
                     <tbody id="tableAccounts">                 
                     </tbody>                   
                   </table>
-                <button type="button" class="btn btn-primary" onclick="handleInsertAccount()">Novo Usuário</button>
+                <button type="button" class="btn btn-primary" onclick="handleInsertAccount()">Nova Manutenção</button>
                 <div class="modal" tabindex="-1" id="accountModal">
                     <div class="modal-dialog modal-lg modal-dialog-centered">
                       <div class="modal-content">
@@ -201,8 +201,8 @@
                   </div>
                 </div>
                 <div class="tab-pane fade" id="v-pills-spaces" role="tabpanel" aria-labelledby="v-pills-spaces-tab">
-                    <h2>Espaços Comuns - Configurações</h2>
-                  <p>Gerenciamento dos espaços comuns cadastrados no sistema</p>
+                    <h2>Mercadorias - Serviços</h2>
+                  <p>Gerenciamento das mercadorias necessárias para o condomínio</p>
                 </div>
               </div>
             </div>                      
