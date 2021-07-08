@@ -67,7 +67,7 @@ img {
   
 ::selection {
   color: var(--bodyBackground);
-  background: var(--hoverColor);
+  background: #777;
 }
 
 
@@ -217,4 +217,4 @@ h2 {
 .modal-content {
   background: var(--bodyBackground);
   color: var(--textColor);
-} 
+}
